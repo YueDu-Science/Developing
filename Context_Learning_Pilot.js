@@ -2166,6 +2166,7 @@ var finger_ctx12;
 var Init_StimComponents;
 var rnd;
 var candidate_map;
+var candidate_list;
 var reorder_key;
 var swap_key;
 function Init_StimRoutineBegin(trials) {
@@ -2196,11 +2197,13 @@ function Init_StimRoutineBegin(trials) {
     }
     stim_key_map_ctx1 = stim_key_perm[stim_key_map_rnd];
     
-    for (var i = 100, _pj_a = 0; (i > _pj_a); i += (- 1)) {
+    // start search from this number; unique for individuals
+    rnd = ((participant * 3) % n_map); 
+    
+    for (var i = rnd, _pj_a = n_map + rnd ; (i < _pj_a); i += 1) {
         reorder_key = 0;
         swap_key = 0;
-        rnd = ((participant * i * participant) % n_map);
-        candidate_map = stim_key_perm[rnd];
+        candidate_map = stim_key_perm[i];
         for (var ii = 0, _pj_b = num_symb; (ii < _pj_b); ii += 1) {
             if ((stim_key_map_ctx1[ii] === candidate_map[ii])) {
                 reorder_key = 0;
