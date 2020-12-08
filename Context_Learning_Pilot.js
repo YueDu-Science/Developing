@@ -2196,20 +2196,20 @@ function Init_StimRoutineBegin(trials) {
     }
     stim_key_map_ctx1 = stim_key_perm[stim_key_map_rnd];
     
-    for (var i = 100, _pj_a = 0; (i < _pj_a); i += (- 1)) {
+    for (var i = 100, _pj_a = 0; (i > _pj_a); i += (- 1)) {
         reorder_key = 0;
         swap_key = 0;
         rnd = ((participant * i) % n_map);
         candidate_map = stim_key_perm[rnd];
-        for (var x = 0, _pj_b = num_symb; (x < _pj_b); x += 1) {
-            if ((stim_key_map_ctx1[x] === candidate_map[x])) {
+        for (var ii = 0, _pj_b = num_symb; (ii < _pj_b); ii += 1) {
+            if ((stim_key_map_ctx1[ii] === candidate_map[ii])) {
                 reorder_key = 0;
             } else {
                 reorder_key = (reorder_key + 1);
             }
-            for (var y = 0, _pj_c = num_symb; (y < _pj_c); y += 1) {
-                if ((x !== y)) {
-                    if (((stim_key_map_ctx1[x] === candidate_map[y]) && (stim_key_map_ctx1[y] === candidate_map[x]))) {
+            for (var jj = 0, _pj_c = num_symb; (jj < _pj_c); jj += 1) {
+                if ((ii !== jj)) {
+                    if (((stim_key_map_ctx1[ii] === candidate_map[jj]) && (stim_key_map_ctx1[jj] === candidate_map[ii]))) {
                         swap_key = 0;
                     } else {
                         swap_key = (swap_key + 1);
