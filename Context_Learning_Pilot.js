@@ -2166,7 +2166,6 @@ var finger_ctx12;
 var Init_StimComponents;
 var rnd;
 var candidate_map;
-var candidate_list;
 var reorder_key;
 var swap_key;
 function Init_StimRoutineBegin(trials) {
@@ -2220,14 +2219,15 @@ function Init_StimRoutineBegin(trials) {
                 }
             }
         }
-        console.log(reorder_key)
-        console.log(swap_key)
+        
         if (((reorder_key === num_symb) && (swap_key === (num_symb * (num_symb - 1))))) {
             stim_key_map_ctx2 = candidate_map;
             break;
         }
     }
     
+    console.log(stim_key_map_ctx1)
+    console.log(stim_key_map_ctx2)
     finger_ctx1 = [];
     finger_ctx2 = [];
     for (var i = 0, _pj_a = num_symb; (i < _pj_a); i += 1) {
