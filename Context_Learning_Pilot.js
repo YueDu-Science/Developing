@@ -2192,7 +2192,7 @@ function Init_StimRoutineBegin(trials) {
     if ((participant == null)) {
         stim_key_map_rnd = 0;
     } else {
-        stim_key_map_rnd = ((participant * 2) % n_map);
+        stim_key_map_rnd = (participant % n_map);
     }
     stim_key_map_ctx1 = stim_key_perm[stim_key_map_rnd];
     
