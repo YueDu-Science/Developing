@@ -2199,7 +2199,7 @@ function Init_StimRoutineBegin(trials) {
     for (var i = 100, _pj_a = 0; (i > _pj_a); i += (- 1)) {
         reorder_key = 0;
         swap_key = 0;
-        rnd = ((participant * i) % n_map);
+        rnd = ((participant * i * participant) % n_map);
         candidate_map = stim_key_perm[rnd];
         for (var ii = 0, _pj_b = num_symb; (ii < _pj_b); ii += 1) {
             if ((stim_key_map_ctx1[ii] === candidate_map[ii])) {
