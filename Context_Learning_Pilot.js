@@ -2217,7 +2217,14 @@ function Init_StimRoutineBegin(trials) {
               }
           }
       }
+      if (((reorder_key === num_symb) && (swap_key === (num_symb * (num_symb - 1))))) {
+        stim_key_map_ctx2 = candidate_map;
+        break;
+      }
     }
+
+    console.log(candidate_map)
+    
     finger_ctx1 = [];
     finger_ctx2 = [];
     for (var i = 0, _pj_a = num_symb; (i < _pj_a); i += 1) {
