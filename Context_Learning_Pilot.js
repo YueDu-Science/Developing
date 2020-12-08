@@ -2166,8 +2166,8 @@ var finger_ctx12;
 var Init_StimComponents;
 var rnd;
 var candidate_map;
-var myList;
-var result;
+var reorder_key;
+var swap_key;
 function Init_StimRoutineBegin(trials) {
   return function () {
     //------Prepare to start Routine 'Init_Stim'-------
