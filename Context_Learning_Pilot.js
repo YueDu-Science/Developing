@@ -80,16 +80,6 @@ dialogCancelScheduler.add(quitPsychoJS, '', false);
 psychoJS.start({
   expName: expName,
   expInfo: expInfo,
-  resources: [
-    {'name': 'media/dnnb.png', 'path': './media/dnnb.png'},
-    {'name': 'media/dinb.png', 'path': './media/dinb.png'},
-    {'name': 'media/hand.png', 'path': './media/hand.png'},
-    {'name': 'media/ddnb.png', 'path': './media/ddnb.png'},
-    {'name': 'conditions.xlsx', 'path': './conditions.xlsx'},
-    {'name': 'media/djnb.png', 'path': './media/djnb.png'},
-    {'name': 'media/check.png', 'path': './media/check.png'},
-    {'name': 'media/cross.png', 'path': './media/cross.png'}
-  ]
   });
 
 
