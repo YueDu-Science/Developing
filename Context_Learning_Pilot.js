@@ -401,7 +401,7 @@ function experimentInit() {
   }
   count = 0;
   while ((count < (num_symb * num_ctx))) {
-      util.(prep_time_ind_tmp);
+      util.shuffle(prep_time_ind_tmp);
       prep_time_ind.append(prep_time_ind_tmp.slice(0));
       count = (count + 1);
   }
