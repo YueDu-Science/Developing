@@ -362,8 +362,6 @@ function experimentInit() {
   }
   timing_tol_early = 0.1;
   timing_tol_late = 0.075;
-  TR_feedback_text = [];
-  TR_penalty_text = [];
   StimList = [];
   hand_shape = [];
   x = [];
