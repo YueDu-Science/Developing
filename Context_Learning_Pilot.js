@@ -216,6 +216,7 @@ var ctx_num;
 var stim_item;
 var image_item;
 var ctx_start_time;
+var interval_ind;
 var Instr_ExpClock;
 var Instr_Exp_Text;
 var Instr_Exp_Key;
