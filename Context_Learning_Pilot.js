@@ -2161,6 +2161,10 @@ var finger_remap_ctx2;
 var finger_remap_ctx12;
 var rnd
 var candidate_map
+var reorder_key;
+var swap_key;
+var shift_left_key;
+var shift_right_key;
 var Init_StimComponents;
 function Init_StimRoutineBegin(trials) {
   return function () {
