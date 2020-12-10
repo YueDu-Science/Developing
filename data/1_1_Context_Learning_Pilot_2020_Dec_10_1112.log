@@ -1,0 +1,2713 @@
+1.5471 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+9.7972 	WARNING 	User requested fullscreen with size [1280  720], but screen is actually [1920, 1080]. Using actual size
+12.2214 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002674951C8D0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026749124320>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.2215 	EXP 	window1: recordFrameIntervals = False
+12.3877 	EXP 	window1: recordFrameIntervals = True
+12.5711 	EXP 	window1: recordFrameIntervals = False
+12.8376 	EXP 	Created Instr_Exp_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_Exp_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+12.8412 	EXP 	Created Instr_RT_Hand_Rext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_RT_Hand_Rext', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.8579 	EXP 	Created Pre_Trial_Circle_Frame_Hand = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=12, name='Pre_Trial_Circle_Frame_Hand', opacity=0.5, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+12.8608 	EXP 	Created Pre_Trial_HandShape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Pre_Trial_HandShape', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+12.8755 	EXP 	Created RT_Circle_Frame_Hand = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Frame_Hand', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+12.8780 	EXP 	Created RT_HandShape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_HandShape', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+12.8799 	EXP 	Created RT_Stim_Hand = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='RT_Stim_Hand', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+12.8947 	EXP 	Created RT_Circle_Frame_Feedback = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Frame_Feedback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+12.8970 	EXP 	Created RT_Feedback_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Feedback_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+12.8995 	EXP 	Created instr_HAND_TR_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instr_HAND_TR_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.9017 	EXP 	Created Instr_Block_Num_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_Block_Num_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.9164 	EXP 	Created Pre_Trial_Circle_Frame_Hand = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=12, name='Pre_Trial_Circle_Frame_Hand', opacity=0.5, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+12.9190 	EXP 	Created Pre_Trial_HandShape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='Pre_Trial_HandShape', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+12.9338 	EXP 	Created TR_Circle_Hand = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='TR_Circle_Hand', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+12.9484 	EXP 	Created TR_Circle_Frame_Hand = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='TR_Circle_Frame_Hand', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+12.9510 	EXP 	Created TR_HandShape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='TR_HandShape', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+12.9529 	EXP 	Created TR_Stim_Hand = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='TR_Stim_Hand', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+12.9676 	EXP 	Created Tr_Circle_Frame_Feedback = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='Tr_Circle_Frame_Feedback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+12.9814 	EXP 	Created TR_Feedback_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='TR_Feedback_Text', opacity=1.0, ori=0, pos=array([0.  , 0.25]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+12.9826 	EXP 	Created TR_Feedback_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='TR_Feedback_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+12.9974 	EXP 	Created TR_Circle_Frame_Penalty = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='TR_Circle_Frame_Penalty', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.0097 	EXP 	Created TR_Penalty_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TR_Penalty_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.0148 	EXP 	Created Instr_CR_Text_Ctx1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_CR_Text_Ctx1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.0296 	EXP 	Created Pre_Trial_Circle_Frame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='Pre_Trial_Circle_Frame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.0455 	EXP 	Created RT_Circle_Fame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Fame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.0604 	EXP 	Created RT_Ctx = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Ctx', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.0625 	EXP 	Created RT_Stim_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Stim_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+13.0773 	EXP 	Created RT_Circle_Frame_Feedback = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Frame_Feedback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.0794 	EXP 	Created RT_Feedback_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Feedback_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+13.0819 	EXP 	Created Instr_CR_Text_Ctx2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_CR_Text_Ctx2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.0969 	EXP 	Created Pre_Trial_Circle_Frame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='Pre_Trial_Circle_Frame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.1116 	EXP 	Created RT_Circle_Fame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Fame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.1262 	EXP 	Created RT_Ctx = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Ctx', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.1283 	EXP 	Created RT_Stim_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Stim_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+13.1431 	EXP 	Created RT_Circle_Frame_Feedback = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Frame_Feedback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.1451 	EXP 	Created RT_Feedback_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Feedback_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+13.1477 	EXP 	Created Instr_CR_Text_Ctx1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_CR_Text_Ctx1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.1629 	EXP 	Created Pre_Trial_Circle_Frame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='Pre_Trial_Circle_Frame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.1778 	EXP 	Created RT_Circle_Fame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Fame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.1928 	EXP 	Created RT_Ctx = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Ctx', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.1947 	EXP 	Created RT_Stim_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Stim_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+13.2095 	EXP 	Created RT_Circle_Frame_Feedback = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Frame_Feedback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.2119 	EXP 	Created RT_Feedback_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Feedback_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+13.2143 	EXP 	Created Instr_RT_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_RT_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.2166 	EXP 	Created Instr_Block_Num_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_Block_Num_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.2315 	EXP 	Created Pre_Trial_Circle_Frame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='Pre_Trial_Circle_Frame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.2462 	EXP 	Created RT_Circle_Fame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Fame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.2609 	EXP 	Created RT_Ctx = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Ctx', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.2633 	EXP 	Created RT_Stim_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Stim_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+13.2785 	EXP 	Created RT_Circle_Frame_Feedback = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='RT_Circle_Frame_Feedback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.2809 	EXP 	Created RT_Feedback_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='RT_Feedback_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+13.2833 	EXP 	Created Instr_TR_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_TR_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.2856 	EXP 	Created Instr_Block_Num_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Instr_Block_Num_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.3007 	EXP 	Created Pre_Trial_Circle_Frame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='Pre_Trial_Circle_Frame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.3155 	EXP 	Created TR_Circle_Frame = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='TR_Circle_Frame', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.3302 	EXP 	Created TR_Circle = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='TR_Circle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+13.3451 	EXP 	Created TR_Ctx = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='TR_Ctx', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.3476 	EXP 	Created TR_Stim_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='TR_Stim_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+13.3633 	EXP 	Created Tr_Circle_Frame_Feedback = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='Tr_Circle_Frame_Feedback', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.3726 	EXP 	Created TR_Feedback_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='TR_Feedback_Text', opacity=1.0, ori=0, pos=array([0.  , 0.25]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.3740 	EXP 	Created TR_Feedback_Image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='TR_Feedback_Image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.18, 0.18]), texRes=128, units='height', win=Window(...))
+13.3892 	EXP 	Created TR_Circle_Frame_Penalty = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1., -1.]), fillColorSpace='rgb', fillRGB=array([-1., -1., -1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.0, name='TR_Circle_Frame_Penalty', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.3, 0.3]), units='height', vertices=ndarray(...), win=Window(...))
+13.3923 	EXP 	Created TR_Penalty_Text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='TR_Penalty_Text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+13.4212 	EXP 	Imported conditions.xlsx as conditions, 8 conditions, 11 params
+13.4215 	EXP 	Created sequence: sequential, trialTypes=8, nReps=1, seed=None
+13.4218 	EXP 	New trial (rep=0, index=0): OrderedDict([('Stim', 0), ('CorrResp', 'h'), ('Ctx_color', 'red'), ('KeyNum', 0), ('imStim', 'media/djnb.png'), ('imStim_r', 'media/djnb_r.png'), ('imStim_g', 'media/djnb_g.png'), ('x_pos', -0.038), ('y_pos', 0.075), ('Hand', 'media/hand.png'), ('Feedback', 'media/check.png')])
+13.4465 	EXP 	New trial (rep=0, index=1): OrderedDict([('Stim', 1), ('CorrResp', 'u'), ('Ctx_color', 'red'), ('KeyNum', 1), ('imStim', 'media/dnnb.png'), ('imStim_r', 'media/dnnb_r.png'), ('imStim_g', 'media/dnnb_g.png'), ('x_pos', 0.014), ('y_pos', 0.1), ('Hand', 'media/hand.png'), ('Feedback', 'media/cross.png')])
+13.4494 	EXP 	New trial (rep=0, index=2): OrderedDict([('Stim', 2), ('CorrResp', 'i'), ('Ctx_color', 'red'), ('KeyNum', 2), ('imStim', 'media/dinb.png'), ('imStim_r', 'media/dinb_r.png'), ('imStim_g', 'media/dinb_g.png'), ('x_pos', 0.057), ('y_pos', 0.08), ('Hand', 'media/hand.png'), ('Feedback', 'media/check.png')])
+13.4525 	EXP 	New trial (rep=0, index=3): OrderedDict([('Stim', 3), ('CorrResp', 'l'), ('Ctx_color', 'red'), ('KeyNum', 3), ('imStim', 'media/ddnb.png'), ('imStim_r', 'media/ddnb_r.png'), ('imStim_g', 'media/ddnb_g.png'), ('x_pos', 0.1), ('y_pos', 0.04), ('Hand', 'media/hand.png'), ('Feedback', 'media/cross.png')])
+13.4553 	EXP 	New trial (rep=0, index=4): OrderedDict([('Stim', 4), ('CorrResp', 'h'), ('Ctx_color', 'green'), ('KeyNum', 0), ('imStim', 'media/djnb.png'), ('imStim_r', 'media/djnb_r.png'), ('imStim_g', 'media/djnb_g.png'), ('x_pos', -0.038), ('y_pos', 0.075), ('Hand', 'media/hand.png'), ('Feedback', 'media/check.png')])
+13.4584 	EXP 	New trial (rep=0, index=5): OrderedDict([('Stim', 5), ('CorrResp', 'u'), ('Ctx_color', 'green'), ('KeyNum', 1), ('imStim', 'media/dnnb.png'), ('imStim_r', 'media/dnnb_r.png'), ('imStim_g', 'media/dnnb_g.png'), ('x_pos', 0.014), ('y_pos', 0.1), ('Hand', 'media/hand.png'), ('Feedback', 'media/cross.png')])
+13.4611 	EXP 	New trial (rep=0, index=6): OrderedDict([('Stim', 6), ('CorrResp', 'i'), ('Ctx_color', 'green'), ('KeyNum', 2), ('imStim', 'media/dinb.png'), ('imStim_r', 'media/dinb_r.png'), ('imStim_g', 'media/dinb_g.png'), ('x_pos', 0.057), ('y_pos', 0.08), ('Hand', 'media/hand.png'), ('Feedback', 'media/check.png')])
+13.4643 	EXP 	New trial (rep=0, index=7): OrderedDict([('Stim', 7), ('CorrResp', 'l'), ('Ctx_color', 'green'), ('KeyNum', 3), ('imStim', 'media/ddnb.png'), ('imStim_r', 'media/ddnb_r.png'), ('imStim_g', 'media/ddnb_g.png'), ('x_pos', 0.1), ('y_pos', 0.04), ('Hand', 'media/hand.png'), ('Feedback', 'media/cross.png')])
+13.4694 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+13.4700 	EXP 	New trial (rep=0, index=0): None
+13.4844 	EXP 	Instr_Exp_Text: autoDraw = True
+25.0590 	DATA 	Keypress: h
+25.7435 	DATA 	Keypress: space
+25.7627 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+25.7634 	EXP 	New trial (rep=0, index=0): None
+25.8187 	EXP 	Instr_Exp_Text: autoDraw = False
+25.8187 	EXP 	Instr_RT_Hand_Rext: text = 'The upcoming three blocks are used to be familiar with the task. \n\nWith your Right hand, place your Index, Middle, Ring, and Pinky fingers on (H, U, I, L) respectively. Your fingers will rest on these keys for the entirety of the experiment. \n\nYou will see a hand appear on the screen. One of the fingers on the screen will light up and your job is to press the corresponding finger as quickly and as accurately as possible. \n\nReady? Press one of these keys to continue.'
+25.8187 	EXP 	Instr_RT_Hand_Rext: autoDraw = True
+26.0934 	EXP 	Created sequence: sequential, trialTypes=1, nReps=4, seed=None
+26.0936 	EXP 	New trial (rep=0, index=0): None
+26.1931 	DATA 	Keypress: h
+26.1967 	EXP 	Instr_RT_Hand_Rext: autoDraw = False
+26.1967 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+26.1967 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+26.1967 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+26.1967 	EXP 	Pre_Trial_HandShape: autoDraw = True
+26.4512 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+26.4512 	EXP 	Pre_Trial_HandShape: autoDraw = False
+26.4512 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+26.4512 	EXP 	Pre_Trial_HandShape: autoDraw = False
+26.4512 	EXP 	RT_Circle_Frame_Hand: opacity = 0.5
+26.4512 	EXP 	RT_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+26.4512 	EXP 	RT_Circle_Frame_Hand: lineWidth = 12.0
+26.4512 	EXP 	RT_HandShape: image = 'media/hand.png'
+26.4512 	EXP 	RT_Stim_Hand: pos = array([0.057, 0.08 ])
+26.4512 	EXP 	RT_Circle_Frame_Hand: autoDraw = True
+26.4512 	EXP 	RT_HandShape: autoDraw = True
+26.4512 	EXP 	RT_Stim_Hand: autoDraw = True
+26.9372 	DATA 	Keypress: i
+26.9407 	EXP 	RT_Circle_Frame_Hand: autoDraw = False
+26.9407 	EXP 	RT_HandShape: autoDraw = False
+26.9407 	EXP 	RT_Stim_Hand: autoDraw = False
+26.9407 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+26.9407 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+26.9407 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+26.9407 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+26.9407 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+26.9407 	EXP 	RT_Feedback_Image: autoDraw = True
+27.2435 	EXP 	New trial (rep=1, index=0): None
+27.2729 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+27.2729 	EXP 	RT_Feedback_Image: autoDraw = False
+27.2729 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+27.2729 	EXP 	RT_Feedback_Image: autoDraw = False
+27.2729 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+27.2729 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+27.2729 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+27.2729 	EXP 	Pre_Trial_HandShape: autoDraw = True
+27.5086 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+27.5086 	EXP 	Pre_Trial_HandShape: autoDraw = False
+27.5086 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+27.5086 	EXP 	Pre_Trial_HandShape: autoDraw = False
+27.5086 	EXP 	RT_Circle_Frame_Hand: opacity = 0.5
+27.5086 	EXP 	RT_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+27.5086 	EXP 	RT_Circle_Frame_Hand: lineWidth = 12.0
+27.5086 	EXP 	RT_HandShape: image = 'media/hand.png'
+27.5086 	EXP 	RT_Stim_Hand: pos = array([0.014, 0.1  ])
+27.5086 	EXP 	RT_Circle_Frame_Hand: autoDraw = True
+27.5086 	EXP 	RT_HandShape: autoDraw = True
+27.5086 	EXP 	RT_Stim_Hand: autoDraw = True
+27.8531 	DATA 	Keypress: u
+27.8566 	EXP 	RT_Circle_Frame_Hand: autoDraw = False
+27.8566 	EXP 	RT_HandShape: autoDraw = False
+27.8566 	EXP 	RT_Stim_Hand: autoDraw = False
+27.8566 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+27.8566 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+27.8566 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+27.8566 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+27.8566 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+27.8566 	EXP 	RT_Feedback_Image: autoDraw = True
+28.1597 	EXP 	New trial (rep=2, index=0): None
+28.1801 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+28.1801 	EXP 	RT_Feedback_Image: autoDraw = False
+28.1801 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+28.1801 	EXP 	RT_Feedback_Image: autoDraw = False
+28.1801 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+28.1801 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+28.1801 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+28.1801 	EXP 	Pre_Trial_HandShape: autoDraw = True
+28.3920 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+28.3920 	EXP 	Pre_Trial_HandShape: autoDraw = False
+28.3920 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+28.3920 	EXP 	Pre_Trial_HandShape: autoDraw = False
+28.3920 	EXP 	RT_Circle_Frame_Hand: opacity = 0.5
+28.3920 	EXP 	RT_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+28.3920 	EXP 	RT_Circle_Frame_Hand: lineWidth = 12.0
+28.3920 	EXP 	RT_HandShape: image = 'media/hand.png'
+28.3920 	EXP 	RT_Stim_Hand: pos = array([0.1 , 0.04])
+28.3920 	EXP 	RT_Circle_Frame_Hand: autoDraw = True
+28.3920 	EXP 	RT_HandShape: autoDraw = True
+28.3920 	EXP 	RT_Stim_Hand: autoDraw = True
+28.7531 	DATA 	Keypress: l
+28.7566 	EXP 	RT_Circle_Frame_Hand: autoDraw = False
+28.7566 	EXP 	RT_HandShape: autoDraw = False
+28.7566 	EXP 	RT_Stim_Hand: autoDraw = False
+28.7566 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+28.7566 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+28.7566 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+28.7566 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+28.7566 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+28.7566 	EXP 	RT_Feedback_Image: autoDraw = True
+29.0586 	EXP 	New trial (rep=3, index=0): None
+29.0879 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+29.0879 	EXP 	RT_Feedback_Image: autoDraw = False
+29.0879 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+29.0879 	EXP 	RT_Feedback_Image: autoDraw = False
+29.0879 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+29.0879 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+29.0879 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+29.0879 	EXP 	Pre_Trial_HandShape: autoDraw = True
+29.2944 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+29.2944 	EXP 	Pre_Trial_HandShape: autoDraw = False
+29.2944 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+29.2944 	EXP 	Pre_Trial_HandShape: autoDraw = False
+29.2944 	EXP 	RT_Circle_Frame_Hand: opacity = 0.5
+29.2944 	EXP 	RT_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+29.2944 	EXP 	RT_Circle_Frame_Hand: lineWidth = 12.0
+29.2944 	EXP 	RT_HandShape: image = 'media/hand.png'
+29.2944 	EXP 	RT_Stim_Hand: pos = array([-0.038,  0.075])
+29.2944 	EXP 	RT_Circle_Frame_Hand: autoDraw = True
+29.2944 	EXP 	RT_HandShape: autoDraw = True
+29.2944 	EXP 	RT_Stim_Hand: autoDraw = True
+29.6403 	DATA 	Keypress: h
+29.6437 	EXP 	RT_Circle_Frame_Hand: autoDraw = False
+29.6437 	EXP 	RT_HandShape: autoDraw = False
+29.6437 	EXP 	RT_Stim_Hand: autoDraw = False
+29.6437 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+29.6437 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+29.6437 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+29.6437 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+29.6437 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+29.6437 	EXP 	RT_Feedback_Image: autoDraw = True
+29.9410 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+29.9412 	EXP 	New trial (rep=0, index=0): None
+29.9686 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+29.9686 	EXP 	RT_Feedback_Image: autoDraw = False
+29.9686 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+29.9686 	EXP 	RT_Feedback_Image: autoDraw = False
+29.9686 	EXP 	instr_HAND_TR_text: text = 'Great Job! \n\nNow, you need to press the corresponding finger when the larger white ring intersects the smaller grey ring. Sometimes, the finger will light up at the very last second. You will not have enough time to know which finger to press. In this case, MAKE A GUESS. Always press one of your fingers when two rings intersect. \n\nLet’s practice! Press one of the keys to continue.'
+29.9686 	EXP 	instr_HAND_TR_text: autoDraw = True
+30.4294 	EXP 	Created sequence: sequential, trialTypes=1, nReps=4, seed=None
+30.4300 	EXP 	New trial (rep=0, index=0): None
+30.4516 	DATA 	Keypress: h
+30.4541 	EXP 	instr_HAND_TR_text: autoDraw = False
+30.4541 	EXP 	Instr_Block_Num_Text: text = 'Block 1\nPress one of the keys to start'
+30.4541 	EXP 	Instr_Block_Num_Text: autoDraw = True
+30.9255 	EXP 	Created sequence: sequential, trialTypes=1, nReps=4, seed=None
+30.9257 	EXP 	New trial (rep=0, index=0): None
+30.9418 	DATA 	Keypress: h
+30.9452 	EXP 	Instr_Block_Num_Text: autoDraw = False
+30.9452 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+30.9452 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+30.9452 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+30.9452 	EXP 	Pre_Trial_HandShape: autoDraw = True
+31.1990 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+31.1990 	EXP 	Pre_Trial_HandShape: autoDraw = False
+31.1990 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+31.1990 	EXP 	Pre_Trial_HandShape: autoDraw = False
+31.1990 	EXP 	TR_Circle_Hand: opacity = 1.0
+31.1990 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+31.1990 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+31.1990 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+31.1990 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+31.1990 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+31.1990 	EXP 	TR_HandShape: image = 'media/hand.png'
+31.1990 	EXP 	TR_Stim_Hand: pos = array([-0.038,  0.075])
+31.1990 	EXP 	TR_Circle_Hand: autoDraw = True
+31.1990 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+31.1990 	EXP 	TR_HandShape: autoDraw = True
+31.9550 	EXP 	TR_Stim_Hand: autoDraw = True
+32.8957 	DATA 	Keypress: h
+32.9166 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+32.9173 	EXP 	New trial (rep=0, index=0): None
+32.9693 	EXP 	TR_Circle_Hand: autoDraw = False
+32.9693 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+32.9693 	EXP 	TR_HandShape: autoDraw = False
+32.9693 	EXP 	TR_Stim_Hand: autoDraw = False
+32.9693 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+32.9693 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+32.9693 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+32.9693 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+32.9693 	EXP 	TR_Feedback_Text: text = 'little late'
+32.9693 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+32.9693 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+32.9693 	EXP 	TR_Feedback_Text: autoDraw = True
+32.9693 	EXP 	TR_Feedback_Image: autoDraw = True
+33.2607 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+33.2614 	EXP 	New trial (rep=1, index=0): None
+33.2951 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+33.2951 	EXP 	TR_Feedback_Text: autoDraw = False
+33.2951 	EXP 	TR_Feedback_Image: autoDraw = False
+33.2951 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+33.2951 	EXP 	TR_Feedback_Text: autoDraw = False
+33.2951 	EXP 	TR_Feedback_Image: autoDraw = False
+33.2951 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+33.2951 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+33.2951 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+33.2951 	EXP 	Pre_Trial_HandShape: autoDraw = True
+33.5170 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+33.5170 	EXP 	Pre_Trial_HandShape: autoDraw = False
+33.5170 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+33.5170 	EXP 	Pre_Trial_HandShape: autoDraw = False
+33.5170 	EXP 	TR_Circle_Hand: opacity = 1.0
+33.5170 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+33.5170 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+33.5170 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+33.5170 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+33.5170 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+33.5170 	EXP 	TR_HandShape: image = 'media/hand.png'
+33.5170 	EXP 	TR_Stim_Hand: pos = array([-0.038,  0.075])
+33.5170 	EXP 	TR_Circle_Hand: autoDraw = True
+33.5170 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+33.5170 	EXP 	TR_HandShape: autoDraw = True
+33.8717 	EXP 	TR_Stim_Hand: autoDraw = True
+35.1288 	DATA 	Keypress: h
+35.1453 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+35.1455 	EXP 	New trial (rep=0, index=0): None
+35.1737 	EXP 	TR_Circle_Hand: autoDraw = False
+35.1737 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+35.1737 	EXP 	TR_HandShape: autoDraw = False
+35.1737 	EXP 	TR_Stim_Hand: autoDraw = False
+35.1737 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+35.1737 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+35.1737 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+35.1737 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+35.1737 	EXP 	TR_Feedback_Text: text = 'good timing'
+35.1737 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+35.1737 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+35.1737 	EXP 	TR_Feedback_Text: autoDraw = True
+35.1737 	EXP 	TR_Feedback_Image: autoDraw = True
+35.4753 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+35.4758 	EXP 	New trial (rep=2, index=0): None
+35.4990 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+35.4990 	EXP 	TR_Feedback_Text: autoDraw = False
+35.4990 	EXP 	TR_Feedback_Image: autoDraw = False
+35.4990 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+35.4990 	EXP 	TR_Feedback_Text: autoDraw = False
+35.4990 	EXP 	TR_Feedback_Image: autoDraw = False
+35.4990 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+35.4990 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+35.4990 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+35.4990 	EXP 	Pre_Trial_HandShape: autoDraw = True
+35.7083 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+35.7083 	EXP 	Pre_Trial_HandShape: autoDraw = False
+35.7083 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+35.7083 	EXP 	Pre_Trial_HandShape: autoDraw = False
+35.7083 	EXP 	TR_Circle_Hand: opacity = 1.0
+35.7083 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+35.7083 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+35.7083 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+35.7083 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+35.7083 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+35.7083 	EXP 	TR_HandShape: image = 'media/hand.png'
+35.7083 	EXP 	TR_Stim_Hand: pos = array([0.057, 0.08 ])
+35.7083 	EXP 	TR_Circle_Hand: autoDraw = True
+35.7083 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+35.7083 	EXP 	TR_HandShape: autoDraw = True
+36.8216 	EXP 	TR_Stim_Hand: autoDraw = True
+37.3109 	DATA 	Keypress: i
+37.3294 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+37.3298 	EXP 	New trial (rep=0, index=0): None
+37.3574 	EXP 	TR_Circle_Hand: autoDraw = False
+37.3574 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+37.3574 	EXP 	TR_HandShape: autoDraw = False
+37.3574 	EXP 	TR_Stim_Hand: autoDraw = False
+37.3574 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+37.3574 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+37.3574 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+37.3574 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+37.3574 	EXP 	TR_Feedback_Text: text = 'good timing'
+37.3574 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+37.3574 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+37.3574 	EXP 	TR_Feedback_Text: autoDraw = True
+37.3574 	EXP 	TR_Feedback_Image: autoDraw = True
+37.6607 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+37.6610 	EXP 	New trial (rep=3, index=0): None
+37.6787 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+37.6787 	EXP 	TR_Feedback_Text: autoDraw = False
+37.6787 	EXP 	TR_Feedback_Image: autoDraw = False
+37.6787 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+37.6787 	EXP 	TR_Feedback_Text: autoDraw = False
+37.6787 	EXP 	TR_Feedback_Image: autoDraw = False
+37.6787 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+37.6787 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+37.6787 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+37.6787 	EXP 	Pre_Trial_HandShape: autoDraw = True
+37.8940 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+37.8940 	EXP 	Pre_Trial_HandShape: autoDraw = False
+37.8940 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+37.8940 	EXP 	Pre_Trial_HandShape: autoDraw = False
+37.8940 	EXP 	TR_Circle_Hand: opacity = 1.0
+37.8940 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+37.8940 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+37.8940 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+37.8940 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+37.8940 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+37.8940 	EXP 	TR_HandShape: image = 'media/hand.png'
+37.8940 	EXP 	TR_Stim_Hand: pos = array([0.014, 0.1  ])
+37.8940 	EXP 	TR_Circle_Hand: autoDraw = True
+37.8940 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+37.8940 	EXP 	TR_HandShape: autoDraw = True
+39.1549 	EXP 	TR_Stim_Hand: autoDraw = True
+39.5603 	DATA 	Keypress: l
+39.5803 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+39.5806 	EXP 	New trial (rep=0, index=0): None
+39.6509 	EXP 	TR_Circle_Hand: autoDraw = False
+39.6509 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+39.6509 	EXP 	TR_HandShape: autoDraw = False
+39.6509 	EXP 	TR_Stim_Hand: autoDraw = False
+39.6509 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+39.6509 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+39.6509 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+39.6509 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+39.6509 	EXP 	TR_Feedback_Text: text = 'good timing'
+39.6509 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+39.6509 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+39.6509 	EXP 	TR_Feedback_Text: autoDraw = True
+39.6509 	EXP 	TR_Feedback_Image: autoDraw = True
+39.9442 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+39.9472 	EXP 	New trial (rep=1, index=0): None
+39.9692 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+39.9692 	EXP 	TR_Feedback_Text: autoDraw = False
+39.9692 	EXP 	TR_Feedback_Image: autoDraw = False
+39.9692 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+39.9692 	EXP 	TR_Feedback_Text: autoDraw = False
+39.9692 	EXP 	TR_Feedback_Image: autoDraw = False
+39.9692 	EXP 	Instr_Block_Num_Text: text = 'Block 2\nPress one of the keys to start'
+39.9692 	EXP 	Instr_Block_Num_Text: autoDraw = True
+48.7595 	DATA 	Keypress: h
+48.7780 	EXP 	Created sequence: sequential, trialTypes=1, nReps=4, seed=None
+48.7787 	EXP 	New trial (rep=0, index=0): None
+48.8088 	EXP 	Instr_Block_Num_Text: autoDraw = False
+48.8088 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+48.8088 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+48.8088 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+48.8088 	EXP 	Pre_Trial_HandShape: autoDraw = True
+49.0299 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+49.0299 	EXP 	Pre_Trial_HandShape: autoDraw = False
+49.0299 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+49.0299 	EXP 	Pre_Trial_HandShape: autoDraw = False
+49.0299 	EXP 	TR_Circle_Hand: opacity = 1.0
+49.0299 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+49.0299 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+49.0299 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+49.0299 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+49.0299 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+49.0299 	EXP 	TR_HandShape: image = 'media/hand.png'
+49.0299 	EXP 	TR_Stim_Hand: pos = array([0.1 , 0.04])
+49.0299 	EXP 	TR_Circle_Hand: autoDraw = True
+49.0299 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+49.0299 	EXP 	TR_HandShape: autoDraw = True
+50.1221 	EXP 	TR_Stim_Hand: autoDraw = True
+50.7501 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+50.7507 	EXP 	New trial (rep=0, index=0): None
+50.8125 	DATA 	Keypress: l
+50.8159 	EXP 	TR_Circle_Hand: autoDraw = False
+50.8159 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+50.8159 	EXP 	TR_HandShape: autoDraw = False
+50.8159 	EXP 	TR_Stim_Hand: autoDraw = False
+50.8159 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+50.8159 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+50.8159 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+50.8159 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+50.8159 	EXP 	TR_Feedback_Text: text = 'little late'
+50.8159 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+50.8159 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+50.8159 	EXP 	TR_Feedback_Text: autoDraw = True
+50.8159 	EXP 	TR_Feedback_Image: autoDraw = True
+51.1089 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+51.1092 	EXP 	New trial (rep=1, index=0): None
+51.1319 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+51.1319 	EXP 	TR_Feedback_Text: autoDraw = False
+51.1319 	EXP 	TR_Feedback_Image: autoDraw = False
+51.1319 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+51.1319 	EXP 	TR_Feedback_Text: autoDraw = False
+51.1319 	EXP 	TR_Feedback_Image: autoDraw = False
+51.1319 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+51.1319 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+51.1319 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+51.1319 	EXP 	Pre_Trial_HandShape: autoDraw = True
+51.3481 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+51.3481 	EXP 	Pre_Trial_HandShape: autoDraw = False
+51.3481 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+51.3481 	EXP 	Pre_Trial_HandShape: autoDraw = False
+51.3481 	EXP 	TR_Circle_Hand: opacity = 1.0
+51.3481 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+51.3481 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+51.3481 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+51.3481 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+51.3481 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+51.3481 	EXP 	TR_HandShape: image = 'media/hand.png'
+51.3481 	EXP 	TR_Stim_Hand: pos = array([0.057, 0.08 ])
+51.3481 	EXP 	TR_Circle_Hand: autoDraw = True
+51.3481 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+51.3481 	EXP 	TR_HandShape: autoDraw = True
+52.7056 	EXP 	TR_Stim_Hand: autoDraw = True
+52.9960 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+52.9964 	EXP 	New trial (rep=0, index=0): None
+53.0301 	DATA 	Keypress: u
+53.0333 	EXP 	TR_Circle_Hand: autoDraw = False
+53.0333 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+53.0333 	EXP 	TR_HandShape: autoDraw = False
+53.0333 	EXP 	TR_Stim_Hand: autoDraw = False
+53.0333 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+53.0333 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+53.0333 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+53.0333 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+53.0333 	EXP 	TR_Feedback_Text: text = 'good timing'
+53.0333 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+53.0333 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+53.0333 	EXP 	TR_Feedback_Text: autoDraw = True
+53.0333 	EXP 	TR_Feedback_Image: autoDraw = True
+53.3266 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+53.3272 	EXP 	New trial (rep=2, index=0): None
+53.3546 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+53.3546 	EXP 	TR_Feedback_Text: autoDraw = False
+53.3546 	EXP 	TR_Feedback_Image: autoDraw = False
+53.3546 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+53.3546 	EXP 	TR_Feedback_Text: autoDraw = False
+53.3546 	EXP 	TR_Feedback_Image: autoDraw = False
+53.3546 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+53.3546 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+53.3546 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+53.3546 	EXP 	Pre_Trial_HandShape: autoDraw = True
+53.5748 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+53.5748 	EXP 	Pre_Trial_HandShape: autoDraw = False
+53.5748 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+53.5748 	EXP 	Pre_Trial_HandShape: autoDraw = False
+53.5748 	EXP 	TR_Circle_Hand: opacity = 1.0
+53.5748 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+53.5748 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+53.5748 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+53.5748 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+53.5748 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+53.5748 	EXP 	TR_HandShape: image = 'media/hand.png'
+53.5748 	EXP 	TR_Stim_Hand: pos = array([0.1 , 0.04])
+53.5748 	EXP 	TR_Circle_Hand: autoDraw = True
+53.5748 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+53.5748 	EXP 	TR_HandShape: autoDraw = True
+53.6220 	EXP 	TR_Stim_Hand: autoDraw = True
+55.1278 	DATA 	Keypress: l
+55.1476 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+55.1482 	EXP 	New trial (rep=0, index=0): None
+55.1817 	EXP 	TR_Circle_Hand: autoDraw = False
+55.1817 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+55.1817 	EXP 	TR_HandShape: autoDraw = False
+55.1817 	EXP 	TR_Stim_Hand: autoDraw = False
+55.1817 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+55.1817 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+55.1817 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+55.1817 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+55.1817 	EXP 	TR_Feedback_Text: text = 'good timing'
+55.1817 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+55.1817 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+55.1817 	EXP 	TR_Feedback_Text: autoDraw = True
+55.1817 	EXP 	TR_Feedback_Image: autoDraw = True
+55.4766 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+55.4772 	EXP 	New trial (rep=3, index=0): None
+55.5042 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+55.5042 	EXP 	TR_Feedback_Text: autoDraw = False
+55.5042 	EXP 	TR_Feedback_Image: autoDraw = False
+55.5042 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+55.5042 	EXP 	TR_Feedback_Text: autoDraw = False
+55.5042 	EXP 	TR_Feedback_Image: autoDraw = False
+55.5042 	EXP 	Pre_Trial_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+55.5042 	EXP 	Pre_Trial_HandShape: image = 'media/hand.png'
+55.5042 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = True
+55.5042 	EXP 	Pre_Trial_HandShape: autoDraw = True
+55.7095 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+55.7095 	EXP 	Pre_Trial_HandShape: autoDraw = False
+55.7095 	EXP 	Pre_Trial_Circle_Frame_Hand: autoDraw = False
+55.7095 	EXP 	Pre_Trial_HandShape: autoDraw = False
+55.7095 	EXP 	TR_Circle_Hand: opacity = 1.0
+55.7095 	EXP 	TR_Circle_Hand: lineColor = '[1. 1. 1.] (rgb)'
+55.7095 	EXP 	TR_Circle_Hand: lineWidth = 12.0
+55.7095 	EXP 	TR_Circle_Frame_Hand: opacity = 0.5
+55.7095 	EXP 	TR_Circle_Frame_Hand: lineColor = '[1. 1. 1.] (rgb)'
+55.7095 	EXP 	TR_Circle_Frame_Hand: lineWidth = 12.0
+55.7095 	EXP 	TR_HandShape: image = 'media/hand.png'
+55.7095 	EXP 	TR_Stim_Hand: pos = array([0.057, 0.08 ])
+55.7095 	EXP 	TR_Circle_Hand: autoDraw = True
+55.7095 	EXP 	TR_Circle_Frame_Hand: autoDraw = True
+55.7095 	EXP 	TR_HandShape: autoDraw = True
+56.6051 	EXP 	TR_Stim_Hand: autoDraw = True
+57.3286 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+57.3289 	EXP 	New trial (rep=0, index=0): None
+57.3534 	DATA 	Keypress: i
+57.3569 	EXP 	TR_Circle_Hand: autoDraw = False
+57.3569 	EXP 	TR_Circle_Frame_Hand: autoDraw = False
+57.3569 	EXP 	TR_HandShape: autoDraw = False
+57.3569 	EXP 	TR_Stim_Hand: autoDraw = False
+57.3569 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+57.3569 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+57.3569 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+57.3569 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+57.3569 	EXP 	TR_Feedback_Text: text = 'good timing'
+57.3569 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+57.3569 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+57.3569 	EXP 	TR_Feedback_Text: autoDraw = True
+57.3569 	EXP 	TR_Feedback_Image: autoDraw = True
+57.6621 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+57.6652 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+57.6659 	EXP 	New trial (rep=0, index=0): None
+57.6665 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+57.6672 	EXP 	New trial (rep=0, index=0): None
+57.6986 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+57.6986 	EXP 	TR_Feedback_Text: autoDraw = False
+57.6986 	EXP 	TR_Feedback_Image: autoDraw = False
+57.6986 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+57.6986 	EXP 	TR_Feedback_Text: autoDraw = False
+57.6986 	EXP 	TR_Feedback_Image: autoDraw = False
+57.6986 	EXP 	Instr_CR_Text_Ctx1: text = 'Good Job! You are now ready for the tasks! \n\nYou will see four symbols on the screen. Each symbol corresponds to one of the keys (H, U, I, or L). Your job is to figure out which symbol corresponds with which key.\nACCURACY is the priority, so go as slowly as you need to. The more mistakes you make, the longer this block will take. \n\nReady? Press one of the keys to continue.'
+57.6986 	EXP 	Instr_CR_Text_Ctx1: autoDraw = True
+63.6798 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2000, seed=None
+63.6872 	EXP 	New trial (rep=0, index=0): None
+63.6901 	DATA 	Keypress: h
+63.6931 	EXP 	Instr_CR_Text_Ctx1: autoDraw = False
+63.6931 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+63.6931 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+63.6931 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+63.6931 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+63.9161 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+63.9161 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+63.9161 	EXP 	RT_Circle_Fame: opacity = 0.5
+63.9161 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+63.9161 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+63.9161 	EXP 	RT_Ctx: opacity = 0.5
+63.9161 	EXP 	RT_Ctx: fillColor = 'red (named)'
+63.9161 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+63.9161 	EXP 	RT_Ctx: lineWidth = 12.0
+63.9161 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+63.9161 	EXP 	RT_Circle_Fame: autoDraw = True
+63.9161 	EXP 	RT_Circle_Fame: autoDraw = False
+63.9161 	EXP 	RT_Ctx: autoDraw = True
+63.9161 	EXP 	RT_Stim_Image: autoDraw = True
+79.6984 	DATA 	Keypress: u
+79.7018 	EXP 	RT_Circle_Fame: autoDraw = False
+79.7018 	EXP 	RT_Ctx: autoDraw = False
+79.7018 	EXP 	RT_Stim_Image: autoDraw = False
+79.7018 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+79.7018 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+79.7018 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+79.7018 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+79.7018 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+79.7018 	EXP 	RT_Feedback_Image: autoDraw = True
+80.0334 	EXP 	New trial (rep=1, index=0): None
+80.0392 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+80.0392 	EXP 	RT_Feedback_Image: autoDraw = False
+80.0392 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+80.0392 	EXP 	RT_Feedback_Image: autoDraw = False
+80.0392 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+80.0392 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+80.0392 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+80.0392 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+80.2516 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+80.2516 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+80.2516 	EXP 	RT_Circle_Fame: opacity = 0.5
+80.2516 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+80.2516 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+80.2516 	EXP 	RT_Ctx: opacity = 0.5
+80.2516 	EXP 	RT_Ctx: fillColor = 'red (named)'
+80.2516 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+80.2516 	EXP 	RT_Ctx: lineWidth = 12.0
+80.2516 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+80.2516 	EXP 	RT_Circle_Fame: autoDraw = True
+80.2516 	EXP 	RT_Circle_Fame: autoDraw = False
+80.2516 	EXP 	RT_Ctx: autoDraw = True
+80.2516 	EXP 	RT_Stim_Image: autoDraw = True
+80.9789 	DATA 	Keypress: l
+81.0941 	EXP 	RT_Circle_Fame: autoDraw = False
+81.0941 	EXP 	RT_Ctx: autoDraw = False
+81.0941 	EXP 	RT_Stim_Image: autoDraw = False
+81.0941 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+81.0941 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+81.0941 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+81.0941 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+81.0941 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+81.0941 	EXP 	RT_Feedback_Image: autoDraw = True
+82.1325 	EXP 	New trial (rep=2, index=0): None
+82.1377 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+82.1377 	EXP 	RT_Feedback_Image: autoDraw = False
+82.1377 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+82.1377 	EXP 	RT_Feedback_Image: autoDraw = False
+82.1377 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+82.1377 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+82.1377 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+82.1377 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+82.3540 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+82.3540 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+82.3540 	EXP 	RT_Circle_Fame: opacity = 0.5
+82.3540 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+82.3540 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+82.3540 	EXP 	RT_Ctx: opacity = 0.5
+82.3540 	EXP 	RT_Ctx: fillColor = 'red (named)'
+82.3540 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+82.3540 	EXP 	RT_Ctx: lineWidth = 12.0
+82.3540 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+82.3540 	EXP 	RT_Circle_Fame: autoDraw = True
+82.3540 	EXP 	RT_Circle_Fame: autoDraw = False
+82.3540 	EXP 	RT_Ctx: autoDraw = True
+82.3540 	EXP 	RT_Stim_Image: autoDraw = True
+82.6918 	DATA 	Keypress: i
+82.6951 	EXP 	RT_Circle_Fame: autoDraw = False
+82.6951 	EXP 	RT_Ctx: autoDraw = False
+82.6951 	EXP 	RT_Stim_Image: autoDraw = False
+82.6951 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+82.6951 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+82.6951 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+82.6951 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+82.6951 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+82.6951 	EXP 	RT_Feedback_Image: autoDraw = True
+83.0175 	EXP 	New trial (rep=3, index=0): None
+83.0226 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+83.0226 	EXP 	RT_Feedback_Image: autoDraw = False
+83.0226 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+83.0226 	EXP 	RT_Feedback_Image: autoDraw = False
+83.0226 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+83.0226 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+83.0226 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+83.0226 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+83.2427 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+83.2427 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+83.2427 	EXP 	RT_Circle_Fame: opacity = 0.5
+83.2427 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+83.2427 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+83.2427 	EXP 	RT_Ctx: opacity = 0.5
+83.2427 	EXP 	RT_Ctx: fillColor = 'red (named)'
+83.2427 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+83.2427 	EXP 	RT_Ctx: lineWidth = 12.0
+83.2427 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+83.2427 	EXP 	RT_Circle_Fame: autoDraw = True
+83.2427 	EXP 	RT_Circle_Fame: autoDraw = False
+83.2427 	EXP 	RT_Ctx: autoDraw = True
+83.2427 	EXP 	RT_Stim_Image: autoDraw = True
+83.9126 	DATA 	Keypress: u
+83.9161 	EXP 	RT_Circle_Fame: autoDraw = False
+83.9161 	EXP 	RT_Ctx: autoDraw = False
+83.9161 	EXP 	RT_Stim_Image: autoDraw = False
+83.9161 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+83.9161 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+83.9161 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+83.9161 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+83.9161 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+83.9161 	EXP 	RT_Feedback_Image: autoDraw = True
+84.2369 	EXP 	New trial (rep=4, index=0): None
+84.2419 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+84.2419 	EXP 	RT_Feedback_Image: autoDraw = False
+84.2419 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+84.2419 	EXP 	RT_Feedback_Image: autoDraw = False
+84.2419 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+84.2419 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+84.2419 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+84.2419 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+84.4693 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+84.4693 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+84.4693 	EXP 	RT_Circle_Fame: opacity = 0.5
+84.4693 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+84.4693 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+84.4693 	EXP 	RT_Ctx: opacity = 0.5
+84.4693 	EXP 	RT_Ctx: fillColor = 'red (named)'
+84.4693 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+84.4693 	EXP 	RT_Ctx: lineWidth = 12.0
+84.4693 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+84.4693 	EXP 	RT_Circle_Fame: autoDraw = True
+84.4693 	EXP 	RT_Circle_Fame: autoDraw = False
+84.4693 	EXP 	RT_Ctx: autoDraw = True
+84.4693 	EXP 	RT_Stim_Image: autoDraw = True
+85.3839 	DATA 	Keypress: l
+85.3874 	EXP 	RT_Circle_Fame: autoDraw = False
+85.3874 	EXP 	RT_Ctx: autoDraw = False
+85.3874 	EXP 	RT_Stim_Image: autoDraw = False
+85.3874 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+85.3874 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+85.3874 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+85.3874 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+85.3874 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+85.3874 	EXP 	RT_Feedback_Image: autoDraw = True
+85.7082 	EXP 	New trial (rep=5, index=0): None
+85.7135 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+85.7135 	EXP 	RT_Feedback_Image: autoDraw = False
+85.7135 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+85.7135 	EXP 	RT_Feedback_Image: autoDraw = False
+85.7135 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+85.7135 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+85.7135 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+85.7135 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+85.9281 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+85.9281 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+85.9281 	EXP 	RT_Circle_Fame: opacity = 0.5
+85.9281 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+85.9281 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+85.9281 	EXP 	RT_Ctx: opacity = 0.5
+85.9281 	EXP 	RT_Ctx: fillColor = 'red (named)'
+85.9281 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+85.9281 	EXP 	RT_Ctx: lineWidth = 12.0
+85.9281 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+85.9281 	EXP 	RT_Circle_Fame: autoDraw = True
+85.9281 	EXP 	RT_Circle_Fame: autoDraw = False
+85.9281 	EXP 	RT_Ctx: autoDraw = True
+85.9281 	EXP 	RT_Stim_Image: autoDraw = True
+86.5428 	DATA 	Keypress: i
+86.6189 	EXP 	RT_Circle_Fame: autoDraw = False
+86.6189 	EXP 	RT_Ctx: autoDraw = False
+86.6189 	EXP 	RT_Stim_Image: autoDraw = False
+86.6189 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+86.6189 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+86.6189 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+86.6189 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+86.6189 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+86.6189 	EXP 	RT_Feedback_Image: autoDraw = True
+86.9379 	EXP 	New trial (rep=6, index=0): None
+86.9430 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+86.9430 	EXP 	RT_Feedback_Image: autoDraw = False
+86.9430 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+86.9430 	EXP 	RT_Feedback_Image: autoDraw = False
+86.9430 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+86.9430 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+86.9430 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+86.9430 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+87.1557 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+87.1557 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+87.1557 	EXP 	RT_Circle_Fame: opacity = 0.5
+87.1557 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+87.1557 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+87.1557 	EXP 	RT_Ctx: opacity = 0.5
+87.1557 	EXP 	RT_Ctx: fillColor = 'red (named)'
+87.1557 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+87.1557 	EXP 	RT_Ctx: lineWidth = 12.0
+87.1557 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+87.1557 	EXP 	RT_Circle_Fame: autoDraw = True
+87.1557 	EXP 	RT_Circle_Fame: autoDraw = False
+87.1557 	EXP 	RT_Ctx: autoDraw = True
+87.1557 	EXP 	RT_Stim_Image: autoDraw = True
+87.9086 	DATA 	Keypress: u
+87.9120 	EXP 	RT_Circle_Fame: autoDraw = False
+87.9120 	EXP 	RT_Ctx: autoDraw = False
+87.9120 	EXP 	RT_Stim_Image: autoDraw = False
+87.9120 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+87.9120 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+87.9120 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+87.9120 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+87.9120 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+87.9120 	EXP 	RT_Feedback_Image: autoDraw = True
+88.9330 	EXP 	New trial (rep=7, index=0): None
+88.9379 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+88.9379 	EXP 	RT_Feedback_Image: autoDraw = False
+88.9379 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+88.9379 	EXP 	RT_Feedback_Image: autoDraw = False
+88.9379 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+88.9379 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+88.9379 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+88.9379 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+89.1410 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+89.1410 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+89.1410 	EXP 	RT_Circle_Fame: opacity = 0.5
+89.1410 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+89.1410 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+89.1410 	EXP 	RT_Ctx: opacity = 0.5
+89.1410 	EXP 	RT_Ctx: fillColor = 'red (named)'
+89.1410 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+89.1410 	EXP 	RT_Ctx: lineWidth = 12.0
+89.1410 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+89.1410 	EXP 	RT_Circle_Fame: autoDraw = True
+89.1410 	EXP 	RT_Circle_Fame: autoDraw = False
+89.1410 	EXP 	RT_Ctx: autoDraw = True
+89.1410 	EXP 	RT_Stim_Image: autoDraw = True
+89.4985 	DATA 	Keypress: l
+89.5020 	EXP 	RT_Circle_Fame: autoDraw = False
+89.5020 	EXP 	RT_Ctx: autoDraw = False
+89.5020 	EXP 	RT_Stim_Image: autoDraw = False
+89.5020 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+89.5020 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+89.5020 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+89.5020 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+89.5020 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+89.5020 	EXP 	RT_Feedback_Image: autoDraw = True
+89.8312 	EXP 	New trial (rep=8, index=0): None
+89.8360 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+89.8360 	EXP 	RT_Feedback_Image: autoDraw = False
+89.8360 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+89.8360 	EXP 	RT_Feedback_Image: autoDraw = False
+89.8360 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+89.8360 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+89.8360 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+89.8360 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+90.0505 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+90.0505 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+90.0505 	EXP 	RT_Circle_Fame: opacity = 0.5
+90.0505 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+90.0505 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+90.0505 	EXP 	RT_Ctx: opacity = 0.5
+90.0505 	EXP 	RT_Ctx: fillColor = 'red (named)'
+90.0505 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+90.0505 	EXP 	RT_Ctx: lineWidth = 12.0
+90.0505 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+90.0505 	EXP 	RT_Circle_Fame: autoDraw = True
+90.0505 	EXP 	RT_Circle_Fame: autoDraw = False
+90.0505 	EXP 	RT_Ctx: autoDraw = True
+90.0505 	EXP 	RT_Stim_Image: autoDraw = True
+90.6576 	DATA 	Keypress: h
+90.6609 	EXP 	RT_Circle_Fame: autoDraw = False
+90.6609 	EXP 	RT_Ctx: autoDraw = False
+90.6609 	EXP 	RT_Stim_Image: autoDraw = False
+90.6609 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+90.6609 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+90.6609 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+90.6609 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+90.6609 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+90.6609 	EXP 	RT_Feedback_Image: autoDraw = True
+90.9923 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+90.9923 	EXP 	RT_Feedback_Image: autoDraw = False
+90.9923 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+90.9923 	EXP 	RT_Feedback_Image: autoDraw = False
+90.9923 	EXP 	Instr_CR_Text_Ctx2: text = 'Congratulations! \n\nNow, the background will change to another color. You need to learn a new map bewtween those four symbols and four keys. \nAgain, ACCURACY is the priority, so go as slowly as you need to. The more mistaks you make, the longer this block will take. \n\nWhen you are ready, press one of the keys to continue.'
+90.9923 	EXP 	Instr_CR_Text_Ctx2: autoDraw = True
+91.5339 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2000, seed=None
+91.5527 	EXP 	New trial (rep=0, index=0): None
+91.5556 	DATA 	Keypress: h
+91.5585 	EXP 	Instr_CR_Text_Ctx2: autoDraw = False
+91.5585 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+91.5585 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+91.5585 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+91.5585 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+91.7843 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+91.7843 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+91.7843 	EXP 	RT_Circle_Fame: opacity = 0.5
+91.7843 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+91.7843 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+91.7843 	EXP 	RT_Ctx: opacity = 0.5
+91.7843 	EXP 	RT_Ctx: fillColor = 'green (named)'
+91.7843 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+91.7843 	EXP 	RT_Ctx: lineWidth = 12.0
+91.7843 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+91.7843 	EXP 	RT_Circle_Fame: autoDraw = True
+91.7843 	EXP 	RT_Circle_Fame: autoDraw = False
+91.7843 	EXP 	RT_Ctx: autoDraw = True
+91.7843 	EXP 	RT_Stim_Image: autoDraw = True
+93.2988 	DATA 	Keypress: h
+93.3022 	EXP 	RT_Circle_Fame: autoDraw = False
+93.3022 	EXP 	RT_Ctx: autoDraw = False
+93.3022 	EXP 	RT_Stim_Image: autoDraw = False
+93.3022 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+93.3022 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+93.3022 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+93.3022 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+93.3022 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+93.3022 	EXP 	RT_Feedback_Image: autoDraw = True
+94.3198 	EXP 	New trial (rep=1, index=0): None
+94.3248 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+94.3248 	EXP 	RT_Feedback_Image: autoDraw = False
+94.3248 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+94.3248 	EXP 	RT_Feedback_Image: autoDraw = False
+94.3248 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+94.3248 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+94.3248 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+94.3248 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+94.5391 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+94.5391 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+94.5391 	EXP 	RT_Circle_Fame: opacity = 0.5
+94.5391 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+94.5391 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+94.5391 	EXP 	RT_Ctx: opacity = 0.5
+94.5391 	EXP 	RT_Ctx: fillColor = 'green (named)'
+94.5391 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+94.5391 	EXP 	RT_Ctx: lineWidth = 12.0
+94.5391 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+94.5391 	EXP 	RT_Circle_Fame: autoDraw = True
+94.5391 	EXP 	RT_Circle_Fame: autoDraw = False
+94.5391 	EXP 	RT_Ctx: autoDraw = True
+94.5391 	EXP 	RT_Stim_Image: autoDraw = True
+94.8431 	DATA 	Keypress: l
+94.8464 	EXP 	RT_Circle_Fame: autoDraw = False
+94.8464 	EXP 	RT_Ctx: autoDraw = False
+94.8464 	EXP 	RT_Stim_Image: autoDraw = False
+94.8464 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+94.8464 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+94.8464 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+94.8464 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+94.8464 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+94.8464 	EXP 	RT_Feedback_Image: autoDraw = True
+95.8737 	EXP 	New trial (rep=2, index=0): None
+95.8791 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+95.8791 	EXP 	RT_Feedback_Image: autoDraw = False
+95.8791 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+95.8791 	EXP 	RT_Feedback_Image: autoDraw = False
+95.8791 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+95.8791 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+95.8791 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+95.8791 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+96.0924 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+96.0924 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+96.0924 	EXP 	RT_Circle_Fame: opacity = 0.5
+96.0924 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+96.0924 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+96.0924 	EXP 	RT_Ctx: opacity = 0.5
+96.0924 	EXP 	RT_Ctx: fillColor = 'green (named)'
+96.0924 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+96.0924 	EXP 	RT_Ctx: lineWidth = 12.0
+96.0924 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+96.0924 	EXP 	RT_Circle_Fame: autoDraw = True
+96.0924 	EXP 	RT_Circle_Fame: autoDraw = False
+96.0924 	EXP 	RT_Ctx: autoDraw = True
+96.0924 	EXP 	RT_Stim_Image: autoDraw = True
+96.3111 	DATA 	Keypress: i
+96.4000 	EXP 	RT_Circle_Fame: autoDraw = False
+96.4000 	EXP 	RT_Ctx: autoDraw = False
+96.4000 	EXP 	RT_Stim_Image: autoDraw = False
+96.4000 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+96.4000 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+96.4000 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+96.4000 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+96.4000 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+96.4000 	EXP 	RT_Feedback_Image: autoDraw = True
+96.7172 	EXP 	New trial (rep=3, index=0): None
+96.7225 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+96.7225 	EXP 	RT_Feedback_Image: autoDraw = False
+96.7225 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+96.7225 	EXP 	RT_Feedback_Image: autoDraw = False
+96.7225 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+96.7225 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+96.7225 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+96.7225 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+96.9356 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+96.9356 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+96.9356 	EXP 	RT_Circle_Fame: opacity = 0.5
+96.9356 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+96.9356 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+96.9356 	EXP 	RT_Ctx: opacity = 0.5
+96.9356 	EXP 	RT_Ctx: fillColor = 'green (named)'
+96.9356 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+96.9356 	EXP 	RT_Ctx: lineWidth = 12.0
+96.9356 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+96.9356 	EXP 	RT_Circle_Fame: autoDraw = True
+96.9356 	EXP 	RT_Circle_Fame: autoDraw = False
+96.9356 	EXP 	RT_Ctx: autoDraw = True
+96.9356 	EXP 	RT_Stim_Image: autoDraw = True
+97.5479 	DATA 	Keypress: i
+97.5512 	EXP 	RT_Circle_Fame: autoDraw = False
+97.5512 	EXP 	RT_Ctx: autoDraw = False
+97.5512 	EXP 	RT_Stim_Image: autoDraw = False
+97.5512 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+97.5512 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+97.5512 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+97.5512 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+97.5512 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+97.5512 	EXP 	RT_Feedback_Image: autoDraw = True
+97.8867 	EXP 	New trial (rep=4, index=0): None
+97.8917 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+97.8917 	EXP 	RT_Feedback_Image: autoDraw = False
+97.8917 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+97.8917 	EXP 	RT_Feedback_Image: autoDraw = False
+97.8917 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+97.8917 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+97.8917 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+97.8917 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+98.1086 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+98.1086 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+98.1086 	EXP 	RT_Circle_Fame: opacity = 0.5
+98.1086 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+98.1086 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+98.1086 	EXP 	RT_Ctx: opacity = 0.5
+98.1086 	EXP 	RT_Ctx: fillColor = 'green (named)'
+98.1086 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+98.1086 	EXP 	RT_Ctx: lineWidth = 12.0
+98.1086 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+98.1086 	EXP 	RT_Circle_Fame: autoDraw = True
+98.1086 	EXP 	RT_Circle_Fame: autoDraw = False
+98.1086 	EXP 	RT_Ctx: autoDraw = True
+98.1086 	EXP 	RT_Stim_Image: autoDraw = True
+99.1416 	DATA 	Keypress: l
+99.1449 	EXP 	RT_Circle_Fame: autoDraw = False
+99.1449 	EXP 	RT_Ctx: autoDraw = False
+99.1449 	EXP 	RT_Stim_Image: autoDraw = False
+99.1449 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+99.1449 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+99.1449 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+99.1449 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+99.1449 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+99.1449 	EXP 	RT_Feedback_Image: autoDraw = True
+100.1823 	EXP 	New trial (rep=5, index=0): None
+100.1880 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+100.1880 	EXP 	RT_Feedback_Image: autoDraw = False
+100.1880 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+100.1880 	EXP 	RT_Feedback_Image: autoDraw = False
+100.1880 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+100.1880 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+100.1880 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+100.1880 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+100.4081 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+100.4081 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+100.4081 	EXP 	RT_Circle_Fame: opacity = 0.5
+100.4081 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+100.4081 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+100.4081 	EXP 	RT_Ctx: opacity = 0.5
+100.4081 	EXP 	RT_Ctx: fillColor = 'green (named)'
+100.4081 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+100.4081 	EXP 	RT_Ctx: lineWidth = 12.0
+100.4081 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+100.4081 	EXP 	RT_Circle_Fame: autoDraw = True
+100.4081 	EXP 	RT_Circle_Fame: autoDraw = False
+100.4081 	EXP 	RT_Ctx: autoDraw = True
+100.4081 	EXP 	RT_Stim_Image: autoDraw = True
+101.4607 	DATA 	Keypress: h
+101.4640 	EXP 	RT_Circle_Fame: autoDraw = False
+101.4640 	EXP 	RT_Ctx: autoDraw = False
+101.4640 	EXP 	RT_Stim_Image: autoDraw = False
+101.4640 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+101.4640 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+101.4640 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+101.4640 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+101.4640 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+101.4640 	EXP 	RT_Feedback_Image: autoDraw = True
+102.5006 	EXP 	New trial (rep=6, index=0): None
+102.5054 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+102.5054 	EXP 	RT_Feedback_Image: autoDraw = False
+102.5054 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+102.5054 	EXP 	RT_Feedback_Image: autoDraw = False
+102.5054 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+102.5054 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+102.5054 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+102.5054 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+102.7177 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+102.7177 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+102.7177 	EXP 	RT_Circle_Fame: opacity = 0.5
+102.7177 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+102.7177 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+102.7177 	EXP 	RT_Ctx: opacity = 0.5
+102.7177 	EXP 	RT_Ctx: fillColor = 'green (named)'
+102.7177 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+102.7177 	EXP 	RT_Ctx: lineWidth = 12.0
+102.7177 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+102.7177 	EXP 	RT_Circle_Fame: autoDraw = True
+102.7177 	EXP 	RT_Circle_Fame: autoDraw = False
+102.7177 	EXP 	RT_Ctx: autoDraw = True
+102.7177 	EXP 	RT_Stim_Image: autoDraw = True
+103.0609 	DATA 	Keypress: l
+103.0643 	EXP 	RT_Circle_Fame: autoDraw = False
+103.0643 	EXP 	RT_Ctx: autoDraw = False
+103.0643 	EXP 	RT_Stim_Image: autoDraw = False
+103.0643 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+103.0643 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+103.0643 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+103.0643 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+103.0643 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+103.0643 	EXP 	RT_Feedback_Image: autoDraw = True
+104.1026 	EXP 	New trial (rep=7, index=0): None
+104.1080 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+104.1080 	EXP 	RT_Feedback_Image: autoDraw = False
+104.1080 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+104.1080 	EXP 	RT_Feedback_Image: autoDraw = False
+104.1080 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+104.1080 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+104.1080 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+104.1080 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+104.3225 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+104.3225 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+104.3225 	EXP 	RT_Circle_Fame: opacity = 0.5
+104.3225 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+104.3225 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+104.3225 	EXP 	RT_Ctx: opacity = 0.5
+104.3225 	EXP 	RT_Ctx: fillColor = 'green (named)'
+104.3225 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+104.3225 	EXP 	RT_Ctx: lineWidth = 12.0
+104.3225 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+104.3225 	EXP 	RT_Circle_Fame: autoDraw = True
+104.3225 	EXP 	RT_Circle_Fame: autoDraw = False
+104.3225 	EXP 	RT_Ctx: autoDraw = True
+104.3225 	EXP 	RT_Stim_Image: autoDraw = True
+104.5856 	DATA 	Keypress: u
+104.5889 	EXP 	RT_Circle_Fame: autoDraw = False
+104.5889 	EXP 	RT_Ctx: autoDraw = False
+104.5889 	EXP 	RT_Stim_Image: autoDraw = False
+104.5889 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+104.5889 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+104.5889 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+104.5889 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+104.5889 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+104.5889 	EXP 	RT_Feedback_Image: autoDraw = True
+104.9113 	EXP 	New trial (rep=8, index=0): None
+104.9164 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+104.9164 	EXP 	RT_Feedback_Image: autoDraw = False
+104.9164 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+104.9164 	EXP 	RT_Feedback_Image: autoDraw = False
+104.9164 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+104.9164 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+104.9164 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+104.9164 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+105.1460 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+105.1460 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+105.1460 	EXP 	RT_Circle_Fame: opacity = 0.5
+105.1460 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+105.1460 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+105.1460 	EXP 	RT_Ctx: opacity = 0.5
+105.1460 	EXP 	RT_Ctx: fillColor = 'green (named)'
+105.1460 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+105.1460 	EXP 	RT_Ctx: lineWidth = 12.0
+105.1460 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+105.1460 	EXP 	RT_Circle_Fame: autoDraw = True
+105.1460 	EXP 	RT_Circle_Fame: autoDraw = False
+105.1460 	EXP 	RT_Ctx: autoDraw = True
+105.1460 	EXP 	RT_Stim_Image: autoDraw = True
+106.1647 	DATA 	Keypress: h
+106.1681 	EXP 	RT_Circle_Fame: autoDraw = False
+106.1681 	EXP 	RT_Ctx: autoDraw = False
+106.1681 	EXP 	RT_Stim_Image: autoDraw = False
+106.1681 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+106.1681 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+106.1681 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+106.1681 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+106.1681 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+106.1681 	EXP 	RT_Feedback_Image: autoDraw = True
+107.1955 	EXP 	New trial (rep=9, index=0): None
+107.2009 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+107.2009 	EXP 	RT_Feedback_Image: autoDraw = False
+107.2009 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+107.2009 	EXP 	RT_Feedback_Image: autoDraw = False
+107.2009 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+107.2009 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+107.2009 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+107.2009 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+107.4203 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+107.4203 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+107.4203 	EXP 	RT_Circle_Fame: opacity = 0.5
+107.4203 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+107.4203 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+107.4203 	EXP 	RT_Ctx: opacity = 0.5
+107.4203 	EXP 	RT_Ctx: fillColor = 'green (named)'
+107.4203 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+107.4203 	EXP 	RT_Ctx: lineWidth = 12.0
+107.4203 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+107.4203 	EXP 	RT_Circle_Fame: autoDraw = True
+107.4203 	EXP 	RT_Circle_Fame: autoDraw = False
+107.4203 	EXP 	RT_Ctx: autoDraw = True
+107.4203 	EXP 	RT_Stim_Image: autoDraw = True
+107.5761 	DATA 	Keypress: l
+107.6578 	EXP 	RT_Circle_Fame: autoDraw = False
+107.6578 	EXP 	RT_Ctx: autoDraw = False
+107.6578 	EXP 	RT_Stim_Image: autoDraw = False
+107.6578 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+107.6578 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+107.6578 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+107.6578 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+107.6578 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+107.6578 	EXP 	RT_Feedback_Image: autoDraw = True
+108.0023 	EXP 	New trial (rep=10, index=0): None
+108.0073 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+108.0073 	EXP 	RT_Feedback_Image: autoDraw = False
+108.0073 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+108.0073 	EXP 	RT_Feedback_Image: autoDraw = False
+108.0073 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+108.0073 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+108.0073 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+108.0073 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+108.2297 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+108.2297 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+108.2297 	EXP 	RT_Circle_Fame: opacity = 0.5
+108.2297 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+108.2297 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+108.2297 	EXP 	RT_Ctx: opacity = 0.5
+108.2297 	EXP 	RT_Ctx: fillColor = 'green (named)'
+108.2297 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+108.2297 	EXP 	RT_Ctx: lineWidth = 12.0
+108.2297 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+108.2297 	EXP 	RT_Circle_Fame: autoDraw = True
+108.2297 	EXP 	RT_Circle_Fame: autoDraw = False
+108.2297 	EXP 	RT_Ctx: autoDraw = True
+108.2297 	EXP 	RT_Stim_Image: autoDraw = True
+109.1327 	DATA 	Keypress: u
+109.1361 	EXP 	RT_Circle_Fame: autoDraw = False
+109.1361 	EXP 	RT_Ctx: autoDraw = False
+109.1361 	EXP 	RT_Stim_Image: autoDraw = False
+109.1361 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+109.1361 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+109.1361 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+109.1361 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+109.1361 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+109.1361 	EXP 	RT_Feedback_Image: autoDraw = True
+109.4501 	EXP 	New trial (rep=11, index=0): None
+109.4552 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+109.4552 	EXP 	RT_Feedback_Image: autoDraw = False
+109.4552 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+109.4552 	EXP 	RT_Feedback_Image: autoDraw = False
+109.4552 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+109.4552 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+109.4552 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+109.4552 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+109.6729 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+109.6729 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+109.6729 	EXP 	RT_Circle_Fame: opacity = 0.5
+109.6729 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+109.6729 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+109.6729 	EXP 	RT_Ctx: opacity = 0.5
+109.6729 	EXP 	RT_Ctx: fillColor = 'green (named)'
+109.6729 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+109.6729 	EXP 	RT_Ctx: lineWidth = 12.0
+109.6729 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+109.6729 	EXP 	RT_Circle_Fame: autoDraw = True
+109.6729 	EXP 	RT_Circle_Fame: autoDraw = False
+109.6729 	EXP 	RT_Ctx: autoDraw = True
+109.6729 	EXP 	RT_Stim_Image: autoDraw = True
+113.1510 	DATA 	Keypress: l
+113.1544 	EXP 	RT_Circle_Fame: autoDraw = False
+113.1544 	EXP 	RT_Ctx: autoDraw = False
+113.1544 	EXP 	RT_Stim_Image: autoDraw = False
+113.1544 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+113.1544 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+113.1544 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+113.1544 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+113.1544 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+113.1544 	EXP 	RT_Feedback_Image: autoDraw = True
+113.4678 	EXP 	New trial (rep=12, index=0): None
+113.4731 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+113.4731 	EXP 	RT_Feedback_Image: autoDraw = False
+113.4731 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+113.4731 	EXP 	RT_Feedback_Image: autoDraw = False
+113.4731 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+113.4731 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+113.4731 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+113.4731 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+113.6896 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+113.6896 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+113.6896 	EXP 	RT_Circle_Fame: opacity = 0.5
+113.6896 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+113.6896 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+113.6896 	EXP 	RT_Ctx: opacity = 0.5
+113.6896 	EXP 	RT_Ctx: fillColor = 'green (named)'
+113.6896 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+113.6896 	EXP 	RT_Ctx: lineWidth = 12.0
+113.6896 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+113.6896 	EXP 	RT_Circle_Fame: autoDraw = True
+113.6896 	EXP 	RT_Circle_Fame: autoDraw = False
+113.6896 	EXP 	RT_Ctx: autoDraw = True
+113.6896 	EXP 	RT_Stim_Image: autoDraw = True
+114.6608 	DATA 	Keypress: h
+114.6642 	EXP 	RT_Circle_Fame: autoDraw = False
+114.6642 	EXP 	RT_Ctx: autoDraw = False
+114.6642 	EXP 	RT_Stim_Image: autoDraw = False
+114.6642 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+114.6642 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+114.6642 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+114.6642 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+114.6642 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+114.6642 	EXP 	RT_Feedback_Image: autoDraw = True
+114.9909 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+114.9911 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+114.9912 	EXP 	New trial (rep=0, index=0): None
+115.0059 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+115.0059 	EXP 	RT_Feedback_Image: autoDraw = False
+115.0059 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+115.0059 	EXP 	RT_Feedback_Image: autoDraw = False
+115.0059 	EXP 	Instr_RT_Text: text = 'Now using the maps that you just learned, your job is to press the corresponding key as quickly and as accurately as possible. \n\nThere will be 2 blocks with short breaks in between. \n\nWhenever you are ready, press one of the keys to start.'
+115.0059 	EXP 	Instr_RT_Text: autoDraw = True
+115.9154 	EXP 	Created sequence: sequential, trialTypes=1, nReps=2, seed=None
+115.9158 	EXP 	New trial (rep=0, index=0): None
+115.9242 	DATA 	Keypress: h
+115.9266 	EXP 	Instr_RT_Text: autoDraw = False
+115.9266 	EXP 	Instr_Block_Num_Text: text = 'Block 1\nPress one of the keys to start'
+115.9266 	EXP 	Instr_Block_Num_Text: autoDraw = True
+116.6789 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+116.6795 	EXP 	New trial (rep=0, index=0): None
+116.6827 	DATA 	Keypress: h
+116.6892 	EXP 	Instr_Block_Num_Text: autoDraw = False
+116.6892 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+116.6892 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+116.6892 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+116.6892 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+116.8895 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+116.8895 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+116.8895 	EXP 	RT_Circle_Fame: opacity = 0.5
+116.8895 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+116.8895 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+116.8895 	EXP 	RT_Ctx: opacity = 0.5
+116.8895 	EXP 	RT_Ctx: fillColor = 'red (named)'
+116.8895 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+116.8895 	EXP 	RT_Ctx: lineWidth = 12.0
+116.8895 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+116.8895 	EXP 	RT_Circle_Fame: autoDraw = True
+116.8895 	EXP 	RT_Circle_Fame: autoDraw = False
+116.8895 	EXP 	RT_Ctx: autoDraw = True
+116.8895 	EXP 	RT_Stim_Image: autoDraw = True
+118.9266 	DATA 	Keypress: h
+118.9614 	EXP 	RT_Circle_Fame: autoDraw = False
+118.9614 	EXP 	RT_Ctx: autoDraw = False
+118.9614 	EXP 	RT_Stim_Image: autoDraw = False
+118.9614 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+118.9614 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+118.9614 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+118.9614 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+118.9614 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+118.9614 	EXP 	RT_Feedback_Image: autoDraw = True
+119.2583 	EXP 	New trial (rep=1, index=0): None
+119.2726 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+119.2726 	EXP 	RT_Feedback_Image: autoDraw = False
+119.2726 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+119.2726 	EXP 	RT_Feedback_Image: autoDraw = False
+119.2726 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+119.2726 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+119.2726 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+119.2726 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+119.4735 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+119.4735 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+119.4735 	EXP 	RT_Circle_Fame: opacity = 0.5
+119.4735 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+119.4735 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+119.4735 	EXP 	RT_Ctx: opacity = 0.5
+119.4735 	EXP 	RT_Ctx: fillColor = 'red (named)'
+119.4735 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+119.4735 	EXP 	RT_Ctx: lineWidth = 12.0
+119.4735 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+119.4735 	EXP 	RT_Circle_Fame: autoDraw = True
+119.4735 	EXP 	RT_Circle_Fame: autoDraw = False
+119.4735 	EXP 	RT_Ctx: autoDraw = True
+119.4735 	EXP 	RT_Stim_Image: autoDraw = True
+119.9625 	DATA 	Keypress: h
+120.0111 	EXP 	RT_Circle_Fame: autoDraw = False
+120.0111 	EXP 	RT_Ctx: autoDraw = False
+120.0111 	EXP 	RT_Stim_Image: autoDraw = False
+120.0111 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+120.0111 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+120.0111 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+120.0111 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+120.0111 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+120.0111 	EXP 	RT_Feedback_Image: autoDraw = True
+120.3096 	EXP 	New trial (rep=2, index=0): None
+120.3227 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+120.3227 	EXP 	RT_Feedback_Image: autoDraw = False
+120.3227 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+120.3227 	EXP 	RT_Feedback_Image: autoDraw = False
+120.3227 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+120.3227 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+120.3227 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+120.3227 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+120.5229 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+120.5229 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+120.5229 	EXP 	RT_Circle_Fame: opacity = 0.5
+120.5229 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+120.5229 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+120.5229 	EXP 	RT_Ctx: opacity = 0.5
+120.5229 	EXP 	RT_Ctx: fillColor = 'red (named)'
+120.5229 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+120.5229 	EXP 	RT_Ctx: lineWidth = 12.0
+120.5229 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+120.5229 	EXP 	RT_Circle_Fame: autoDraw = True
+120.5229 	EXP 	RT_Circle_Fame: autoDraw = False
+120.5229 	EXP 	RT_Ctx: autoDraw = True
+120.5229 	EXP 	RT_Stim_Image: autoDraw = True
+122.6672 	DATA 	Keypress: i
+122.6703 	EXP 	RT_Circle_Fame: autoDraw = False
+122.6703 	EXP 	RT_Ctx: autoDraw = False
+122.6703 	EXP 	RT_Stim_Image: autoDraw = False
+122.6703 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+122.6703 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+122.6703 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+122.6703 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+122.6703 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+122.6703 	EXP 	RT_Feedback_Image: autoDraw = True
+123.6616 	EXP 	New trial (rep=3, index=0): None
+123.6729 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+123.6729 	EXP 	RT_Feedback_Image: autoDraw = False
+123.6729 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+123.6729 	EXP 	RT_Feedback_Image: autoDraw = False
+123.6729 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+123.6729 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+123.6729 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+123.6729 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+123.8729 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+123.8729 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+123.8729 	EXP 	RT_Circle_Fame: opacity = 0.5
+123.8729 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+123.8729 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+123.8729 	EXP 	RT_Ctx: opacity = 0.5
+123.8729 	EXP 	RT_Ctx: fillColor = 'red (named)'
+123.8729 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+123.8729 	EXP 	RT_Ctx: lineWidth = 12.0
+123.8729 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+123.8729 	EXP 	RT_Circle_Fame: autoDraw = True
+123.8729 	EXP 	RT_Circle_Fame: autoDraw = False
+123.8729 	EXP 	RT_Ctx: autoDraw = True
+123.8729 	EXP 	RT_Stim_Image: autoDraw = True
+124.3265 	DATA 	Keypress: u
+124.3747 	EXP 	RT_Circle_Fame: autoDraw = False
+124.3747 	EXP 	RT_Ctx: autoDraw = False
+124.3747 	EXP 	RT_Stim_Image: autoDraw = False
+124.3747 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+124.3747 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+124.3747 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+124.3747 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+124.3747 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+124.3747 	EXP 	RT_Feedback_Image: autoDraw = True
+125.3771 	EXP 	New trial (rep=4, index=0): None
+125.3893 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+125.3893 	EXP 	RT_Feedback_Image: autoDraw = False
+125.3893 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+125.3893 	EXP 	RT_Feedback_Image: autoDraw = False
+125.3893 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+125.3893 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+125.3893 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+125.3893 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+125.5893 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+125.5893 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+125.5893 	EXP 	RT_Circle_Fame: opacity = 0.5
+125.5893 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+125.5893 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+125.5893 	EXP 	RT_Ctx: opacity = 0.5
+125.5893 	EXP 	RT_Ctx: fillColor = 'red (named)'
+125.5893 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+125.5893 	EXP 	RT_Ctx: lineWidth = 12.0
+125.5893 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+125.5893 	EXP 	RT_Circle_Fame: autoDraw = True
+125.5893 	EXP 	RT_Circle_Fame: autoDraw = False
+125.5893 	EXP 	RT_Ctx: autoDraw = True
+125.5893 	EXP 	RT_Stim_Image: autoDraw = True
+126.8100 	DATA 	Keypress: u
+126.8133 	EXP 	RT_Circle_Fame: autoDraw = False
+126.8133 	EXP 	RT_Ctx: autoDraw = False
+126.8133 	EXP 	RT_Stim_Image: autoDraw = False
+126.8133 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+126.8133 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+126.8133 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+126.8133 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+126.8133 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+126.8133 	EXP 	RT_Feedback_Image: autoDraw = True
+127.1080 	EXP 	New trial (rep=5, index=0): None
+127.1228 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+127.1228 	EXP 	RT_Feedback_Image: autoDraw = False
+127.1228 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+127.1228 	EXP 	RT_Feedback_Image: autoDraw = False
+127.1228 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+127.1228 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+127.1228 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+127.1228 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+127.3232 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+127.3232 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+127.3232 	EXP 	RT_Circle_Fame: opacity = 0.5
+127.3232 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+127.3232 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+127.3232 	EXP 	RT_Ctx: opacity = 0.5
+127.3232 	EXP 	RT_Ctx: fillColor = 'red (named)'
+127.3232 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+127.3232 	EXP 	RT_Ctx: lineWidth = 12.0
+127.3232 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+127.3232 	EXP 	RT_Circle_Fame: autoDraw = True
+127.3232 	EXP 	RT_Circle_Fame: autoDraw = False
+127.3232 	EXP 	RT_Ctx: autoDraw = True
+127.3232 	EXP 	RT_Stim_Image: autoDraw = True
+128.4249 	DATA 	Keypress: i
+128.4283 	EXP 	RT_Circle_Fame: autoDraw = False
+128.4283 	EXP 	RT_Ctx: autoDraw = False
+128.4283 	EXP 	RT_Stim_Image: autoDraw = False
+128.4283 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+128.4283 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+128.4283 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+128.4283 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+128.4283 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+128.4283 	EXP 	RT_Feedback_Image: autoDraw = True
+128.7282 	EXP 	New trial (rep=6, index=0): None
+128.7397 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+128.7397 	EXP 	RT_Feedback_Image: autoDraw = False
+128.7397 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+128.7397 	EXP 	RT_Feedback_Image: autoDraw = False
+128.7397 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+128.7397 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+128.7397 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+128.7397 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+128.9398 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+128.9398 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+128.9398 	EXP 	RT_Circle_Fame: opacity = 0.5
+128.9398 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+128.9398 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+128.9398 	EXP 	RT_Ctx: opacity = 0.5
+128.9398 	EXP 	RT_Ctx: fillColor = 'red (named)'
+128.9398 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+128.9398 	EXP 	RT_Ctx: lineWidth = 12.0
+128.9398 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+128.9398 	EXP 	RT_Circle_Fame: autoDraw = True
+128.9398 	EXP 	RT_Circle_Fame: autoDraw = False
+128.9398 	EXP 	RT_Ctx: autoDraw = True
+128.9398 	EXP 	RT_Stim_Image: autoDraw = True
+131.1381 	DATA 	Keypress: l
+131.1414 	EXP 	RT_Circle_Fame: autoDraw = False
+131.1414 	EXP 	RT_Ctx: autoDraw = False
+131.1414 	EXP 	RT_Stim_Image: autoDraw = False
+131.1414 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+131.1414 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+131.1414 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+131.1414 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+131.1414 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+131.1414 	EXP 	RT_Feedback_Image: autoDraw = True
+132.1452 	EXP 	New trial (rep=7, index=0): None
+132.1562 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+132.1562 	EXP 	RT_Feedback_Image: autoDraw = False
+132.1562 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+132.1562 	EXP 	RT_Feedback_Image: autoDraw = False
+132.1562 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+132.1562 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+132.1562 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+132.1562 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+132.3562 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+132.3562 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+132.3562 	EXP 	RT_Circle_Fame: opacity = 0.5
+132.3562 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+132.3562 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+132.3562 	EXP 	RT_Ctx: opacity = 0.5
+132.3562 	EXP 	RT_Ctx: fillColor = 'red (named)'
+132.3562 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+132.3562 	EXP 	RT_Ctx: lineWidth = 12.0
+132.3562 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+132.3562 	EXP 	RT_Circle_Fame: autoDraw = True
+132.3562 	EXP 	RT_Circle_Fame: autoDraw = False
+132.3562 	EXP 	RT_Ctx: autoDraw = True
+132.3562 	EXP 	RT_Stim_Image: autoDraw = True
+133.2727 	DATA 	Keypress: i
+133.2761 	EXP 	RT_Circle_Fame: autoDraw = False
+133.2761 	EXP 	RT_Ctx: autoDraw = False
+133.2761 	EXP 	RT_Stim_Image: autoDraw = False
+133.2761 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+133.2761 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+133.2761 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+133.2761 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+133.2761 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+133.2761 	EXP 	RT_Feedback_Image: autoDraw = True
+133.5767 	EXP 	New trial (rep=8, index=0): None
+133.5892 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+133.5892 	EXP 	RT_Feedback_Image: autoDraw = False
+133.5892 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+133.5892 	EXP 	RT_Feedback_Image: autoDraw = False
+133.5892 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+133.5892 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+133.5892 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+133.5892 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+133.7897 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+133.7897 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+133.7897 	EXP 	RT_Circle_Fame: opacity = 0.5
+133.7897 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+133.7897 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+133.7897 	EXP 	RT_Ctx: opacity = 0.5
+133.7897 	EXP 	RT_Ctx: fillColor = 'red (named)'
+133.7897 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+133.7897 	EXP 	RT_Ctx: lineWidth = 12.0
+133.7897 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+133.7897 	EXP 	RT_Circle_Fame: autoDraw = True
+133.7897 	EXP 	RT_Circle_Fame: autoDraw = False
+133.7897 	EXP 	RT_Ctx: autoDraw = True
+133.7897 	EXP 	RT_Stim_Image: autoDraw = True
+134.9610 	DATA 	Keypress: l
+134.9644 	EXP 	RT_Circle_Fame: autoDraw = False
+134.9644 	EXP 	RT_Ctx: autoDraw = False
+134.9644 	EXP 	RT_Stim_Image: autoDraw = False
+134.9644 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+134.9644 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+134.9644 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+134.9644 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+134.9644 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+134.9644 	EXP 	RT_Feedback_Image: autoDraw = True
+135.2599 	EXP 	New trial (rep=9, index=0): None
+135.2729 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+135.2729 	EXP 	RT_Feedback_Image: autoDraw = False
+135.2729 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+135.2729 	EXP 	RT_Feedback_Image: autoDraw = False
+135.2729 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+135.2729 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+135.2729 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+135.2729 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+135.4732 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+135.4732 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+135.4732 	EXP 	RT_Circle_Fame: opacity = 0.5
+135.4732 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+135.4732 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+135.4732 	EXP 	RT_Ctx: opacity = 0.5
+135.4732 	EXP 	RT_Ctx: fillColor = 'red (named)'
+135.4732 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+135.4732 	EXP 	RT_Ctx: lineWidth = 12.0
+135.4732 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+135.4732 	EXP 	RT_Circle_Fame: autoDraw = True
+135.4732 	EXP 	RT_Circle_Fame: autoDraw = False
+135.4732 	EXP 	RT_Ctx: autoDraw = True
+135.4732 	EXP 	RT_Stim_Image: autoDraw = True
+136.1577 	DATA 	Keypress: i
+136.1611 	EXP 	RT_Circle_Fame: autoDraw = False
+136.1611 	EXP 	RT_Ctx: autoDraw = False
+136.1611 	EXP 	RT_Stim_Image: autoDraw = False
+136.1611 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+136.1611 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+136.1611 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+136.1611 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+136.1611 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+136.1611 	EXP 	RT_Feedback_Image: autoDraw = True
+136.4581 	EXP 	New trial (rep=1, index=0): None
+136.4724 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+136.4724 	EXP 	RT_Feedback_Image: autoDraw = False
+136.4724 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+136.4724 	EXP 	RT_Feedback_Image: autoDraw = False
+136.4724 	EXP 	Instr_Block_Num_Text: text = 'Block 2\nPress one of the keys to start'
+136.4724 	EXP 	Instr_Block_Num_Text: autoDraw = True
+137.1609 	DATA 	Keypress: h
+137.1792 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+137.1800 	EXP 	New trial (rep=0, index=0): None
+137.1898 	EXP 	Instr_Block_Num_Text: autoDraw = False
+137.1898 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+137.1898 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+137.1898 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+137.1898 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+137.3897 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+137.3897 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+137.3897 	EXP 	RT_Circle_Fame: opacity = 0.5
+137.3897 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+137.3897 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+137.3897 	EXP 	RT_Ctx: opacity = 0.5
+137.3897 	EXP 	RT_Ctx: fillColor = 'green (named)'
+137.3897 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+137.3897 	EXP 	RT_Ctx: lineWidth = 12.0
+137.3897 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+137.3897 	EXP 	RT_Circle_Fame: autoDraw = True
+137.3897 	EXP 	RT_Circle_Fame: autoDraw = False
+137.3897 	EXP 	RT_Ctx: autoDraw = True
+137.3897 	EXP 	RT_Stim_Image: autoDraw = True
+139.6472 	DATA 	Keypress: l
+139.6503 	EXP 	RT_Circle_Fame: autoDraw = False
+139.6503 	EXP 	RT_Ctx: autoDraw = False
+139.6503 	EXP 	RT_Stim_Image: autoDraw = False
+139.6503 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+139.6503 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+139.6503 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+139.6503 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+139.6503 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+139.6503 	EXP 	RT_Feedback_Image: autoDraw = True
+140.6419 	EXP 	New trial (rep=1, index=0): None
+140.6559 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+140.6559 	EXP 	RT_Feedback_Image: autoDraw = False
+140.6559 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+140.6559 	EXP 	RT_Feedback_Image: autoDraw = False
+140.6559 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+140.6559 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+140.6559 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+140.6559 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+140.8565 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+140.8565 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+140.8565 	EXP 	RT_Circle_Fame: opacity = 0.5
+140.8565 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+140.8565 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+140.8565 	EXP 	RT_Ctx: opacity = 0.5
+140.8565 	EXP 	RT_Ctx: fillColor = 'green (named)'
+140.8565 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+140.8565 	EXP 	RT_Ctx: lineWidth = 12.0
+140.8565 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+140.8565 	EXP 	RT_Circle_Fame: autoDraw = True
+140.8565 	EXP 	RT_Circle_Fame: autoDraw = False
+140.8565 	EXP 	RT_Ctx: autoDraw = True
+140.8565 	EXP 	RT_Stim_Image: autoDraw = True
+141.9940 	DATA 	Keypress: l
+141.9973 	EXP 	RT_Circle_Fame: autoDraw = False
+141.9973 	EXP 	RT_Ctx: autoDraw = False
+141.9973 	EXP 	RT_Stim_Image: autoDraw = False
+141.9973 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+141.9973 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+141.9973 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+141.9973 	EXP 	RT_Feedback_Image: image = 'media/cross.png'
+141.9973 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+141.9973 	EXP 	RT_Feedback_Image: autoDraw = True
+142.9937 	EXP 	New trial (rep=2, index=0): None
+143.0063 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+143.0063 	EXP 	RT_Feedback_Image: autoDraw = False
+143.0063 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+143.0063 	EXP 	RT_Feedback_Image: autoDraw = False
+143.0063 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+143.0063 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+143.0063 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+143.0063 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+143.2064 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+143.2064 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+143.2064 	EXP 	RT_Circle_Fame: opacity = 0.5
+143.2064 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+143.2064 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+143.2064 	EXP 	RT_Ctx: opacity = 0.5
+143.2064 	EXP 	RT_Ctx: fillColor = 'green (named)'
+143.2064 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+143.2064 	EXP 	RT_Ctx: lineWidth = 12.0
+143.2064 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+143.2064 	EXP 	RT_Circle_Fame: autoDraw = True
+143.2064 	EXP 	RT_Circle_Fame: autoDraw = False
+143.2064 	EXP 	RT_Ctx: autoDraw = True
+143.2064 	EXP 	RT_Stim_Image: autoDraw = True
+146.1175 	DATA 	Keypress: h
+146.1207 	EXP 	RT_Circle_Fame: autoDraw = False
+146.1207 	EXP 	RT_Ctx: autoDraw = False
+146.1207 	EXP 	RT_Stim_Image: autoDraw = False
+146.1207 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+146.1207 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+146.1207 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+146.1207 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+146.1207 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+146.1207 	EXP 	RT_Feedback_Image: autoDraw = True
+146.4084 	EXP 	New trial (rep=3, index=0): None
+146.4228 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+146.4228 	EXP 	RT_Feedback_Image: autoDraw = False
+146.4228 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+146.4228 	EXP 	RT_Feedback_Image: autoDraw = False
+146.4228 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+146.4228 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+146.4228 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+146.4228 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+146.6231 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+146.6231 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+146.6231 	EXP 	RT_Circle_Fame: opacity = 0.5
+146.6231 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+146.6231 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+146.6231 	EXP 	RT_Ctx: opacity = 0.5
+146.6231 	EXP 	RT_Ctx: fillColor = 'green (named)'
+146.6231 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+146.6231 	EXP 	RT_Ctx: lineWidth = 12.0
+146.6231 	EXP 	RT_Stim_Image: image = 'media/djnb.png'
+146.6231 	EXP 	RT_Circle_Fame: autoDraw = True
+146.6231 	EXP 	RT_Circle_Fame: autoDraw = False
+146.6231 	EXP 	RT_Ctx: autoDraw = True
+146.6231 	EXP 	RT_Stim_Image: autoDraw = True
+148.1236 	DATA 	Keypress: u
+148.1275 	EXP 	RT_Circle_Fame: autoDraw = False
+148.1275 	EXP 	RT_Ctx: autoDraw = False
+148.1275 	EXP 	RT_Stim_Image: autoDraw = False
+148.1275 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+148.1275 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+148.1275 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+148.1275 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+148.1275 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+148.1275 	EXP 	RT_Feedback_Image: autoDraw = True
+148.4262 	EXP 	New trial (rep=4, index=0): None
+148.4397 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+148.4397 	EXP 	RT_Feedback_Image: autoDraw = False
+148.4397 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+148.4397 	EXP 	RT_Feedback_Image: autoDraw = False
+148.4397 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+148.4397 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+148.4397 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+148.4397 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+148.6399 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+148.6399 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+148.6399 	EXP 	RT_Circle_Fame: opacity = 0.5
+148.6399 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+148.6399 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+148.6399 	EXP 	RT_Ctx: opacity = 0.5
+148.6399 	EXP 	RT_Ctx: fillColor = 'green (named)'
+148.6399 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+148.6399 	EXP 	RT_Ctx: lineWidth = 12.0
+148.6399 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+148.6399 	EXP 	RT_Circle_Fame: autoDraw = True
+148.6399 	EXP 	RT_Circle_Fame: autoDraw = False
+148.6399 	EXP 	RT_Ctx: autoDraw = True
+148.6399 	EXP 	RT_Stim_Image: autoDraw = True
+149.2909 	DATA 	Keypress: i
+149.2943 	EXP 	RT_Circle_Fame: autoDraw = False
+149.2943 	EXP 	RT_Ctx: autoDraw = False
+149.2943 	EXP 	RT_Stim_Image: autoDraw = False
+149.2943 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+149.2943 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+149.2943 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+149.2943 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+149.2943 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+149.2943 	EXP 	RT_Feedback_Image: autoDraw = True
+149.5925 	EXP 	New trial (rep=5, index=0): None
+149.6064 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+149.6064 	EXP 	RT_Feedback_Image: autoDraw = False
+149.6064 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+149.6064 	EXP 	RT_Feedback_Image: autoDraw = False
+149.6064 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+149.6064 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+149.6064 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+149.6064 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+149.8065 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+149.8065 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+149.8065 	EXP 	RT_Circle_Fame: opacity = 0.5
+149.8065 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+149.8065 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+149.8065 	EXP 	RT_Ctx: opacity = 0.5
+149.8065 	EXP 	RT_Ctx: fillColor = 'green (named)'
+149.8065 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+149.8065 	EXP 	RT_Ctx: lineWidth = 12.0
+149.8065 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+149.8065 	EXP 	RT_Circle_Fame: autoDraw = True
+149.8065 	EXP 	RT_Circle_Fame: autoDraw = False
+149.8065 	EXP 	RT_Ctx: autoDraw = True
+149.8065 	EXP 	RT_Stim_Image: autoDraw = True
+150.2586 	DATA 	Keypress: l
+150.2620 	EXP 	RT_Circle_Fame: autoDraw = False
+150.2620 	EXP 	RT_Ctx: autoDraw = False
+150.2620 	EXP 	RT_Stim_Image: autoDraw = False
+150.2620 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+150.2620 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+150.2620 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+150.2620 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+150.2620 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+150.2620 	EXP 	RT_Feedback_Image: autoDraw = True
+150.5585 	EXP 	New trial (rep=6, index=0): None
+150.5730 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+150.5730 	EXP 	RT_Feedback_Image: autoDraw = False
+150.5730 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+150.5730 	EXP 	RT_Feedback_Image: autoDraw = False
+150.5730 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+150.5730 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+150.5730 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+150.5730 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+150.7733 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+150.7733 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+150.7733 	EXP 	RT_Circle_Fame: opacity = 0.5
+150.7733 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+150.7733 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+150.7733 	EXP 	RT_Ctx: opacity = 0.5
+150.7733 	EXP 	RT_Ctx: fillColor = 'green (named)'
+150.7733 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+150.7733 	EXP 	RT_Ctx: lineWidth = 12.0
+150.7733 	EXP 	RT_Stim_Image: image = 'media/ddnb.png'
+150.7733 	EXP 	RT_Circle_Fame: autoDraw = True
+150.7733 	EXP 	RT_Circle_Fame: autoDraw = False
+150.7733 	EXP 	RT_Ctx: autoDraw = True
+150.7733 	EXP 	RT_Stim_Image: autoDraw = True
+152.7623 	DATA 	Keypress: l
+152.7955 	EXP 	RT_Circle_Fame: autoDraw = False
+152.7955 	EXP 	RT_Ctx: autoDraw = False
+152.7955 	EXP 	RT_Stim_Image: autoDraw = False
+152.7955 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+152.7955 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+152.7955 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+152.7955 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+152.7955 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+152.7955 	EXP 	RT_Feedback_Image: autoDraw = True
+153.0927 	EXP 	New trial (rep=7, index=0): None
+153.1064 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+153.1064 	EXP 	RT_Feedback_Image: autoDraw = False
+153.1064 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+153.1064 	EXP 	RT_Feedback_Image: autoDraw = False
+153.1064 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+153.1064 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+153.1064 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+153.1064 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+153.3066 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+153.3066 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+153.3066 	EXP 	RT_Circle_Fame: opacity = 0.5
+153.3066 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+153.3066 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+153.3066 	EXP 	RT_Ctx: opacity = 0.5
+153.3066 	EXP 	RT_Ctx: fillColor = 'green (named)'
+153.3066 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+153.3066 	EXP 	RT_Ctx: lineWidth = 12.0
+153.3066 	EXP 	RT_Stim_Image: image = 'media/dinb.png'
+153.3066 	EXP 	RT_Circle_Fame: autoDraw = True
+153.3066 	EXP 	RT_Circle_Fame: autoDraw = False
+153.3066 	EXP 	RT_Ctx: autoDraw = True
+153.3066 	EXP 	RT_Stim_Image: autoDraw = True
+153.9125 	DATA 	Keypress: h
+153.9533 	EXP 	RT_Circle_Fame: autoDraw = False
+153.9533 	EXP 	RT_Ctx: autoDraw = False
+153.9533 	EXP 	RT_Stim_Image: autoDraw = False
+153.9533 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+153.9533 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+153.9533 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+153.9533 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+153.9533 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+153.9533 	EXP 	RT_Feedback_Image: autoDraw = True
+154.2451 	EXP 	New trial (rep=8, index=0): None
+154.2566 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+154.2566 	EXP 	RT_Feedback_Image: autoDraw = False
+154.2566 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+154.2566 	EXP 	RT_Feedback_Image: autoDraw = False
+154.2566 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+154.2566 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+154.2566 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+154.2566 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+154.4566 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+154.4566 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+154.4566 	EXP 	RT_Circle_Fame: opacity = 0.5
+154.4566 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+154.4566 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+154.4566 	EXP 	RT_Ctx: opacity = 0.5
+154.4566 	EXP 	RT_Ctx: fillColor = 'green (named)'
+154.4566 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+154.4566 	EXP 	RT_Ctx: lineWidth = 12.0
+154.4566 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+154.4566 	EXP 	RT_Circle_Fame: autoDraw = True
+154.4566 	EXP 	RT_Circle_Fame: autoDraw = False
+154.4566 	EXP 	RT_Ctx: autoDraw = True
+154.4566 	EXP 	RT_Stim_Image: autoDraw = True
+157.3963 	DATA 	Keypress: i
+157.3997 	EXP 	RT_Circle_Fame: autoDraw = False
+157.3997 	EXP 	RT_Ctx: autoDraw = False
+157.3997 	EXP 	RT_Stim_Image: autoDraw = False
+157.3997 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+157.3997 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+157.3997 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+157.3997 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+157.3997 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+157.3997 	EXP 	RT_Feedback_Image: autoDraw = True
+157.6948 	EXP 	New trial (rep=9, index=0): None
+157.7067 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+157.7067 	EXP 	RT_Feedback_Image: autoDraw = False
+157.7067 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+157.7067 	EXP 	RT_Feedback_Image: autoDraw = False
+157.7067 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+157.7067 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+157.7067 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+157.7067 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+157.9066 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+157.9066 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+157.9066 	EXP 	RT_Circle_Fame: opacity = 0.5
+157.9066 	EXP 	RT_Circle_Fame: lineColor = '[1. 1. 1.] (rgb)'
+157.9066 	EXP 	RT_Circle_Fame: lineWidth = 12.0
+157.9066 	EXP 	RT_Ctx: opacity = 0.5
+157.9066 	EXP 	RT_Ctx: fillColor = 'green (named)'
+157.9066 	EXP 	RT_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+157.9066 	EXP 	RT_Ctx: lineWidth = 12.0
+157.9066 	EXP 	RT_Stim_Image: image = 'media/dnnb.png'
+157.9066 	EXP 	RT_Circle_Fame: autoDraw = True
+157.9066 	EXP 	RT_Circle_Fame: autoDraw = False
+157.9066 	EXP 	RT_Ctx: autoDraw = True
+157.9066 	EXP 	RT_Stim_Image: autoDraw = True
+158.4718 	DATA 	Keypress: i
+158.4749 	EXP 	RT_Circle_Fame: autoDraw = False
+158.4749 	EXP 	RT_Ctx: autoDraw = False
+158.4749 	EXP 	RT_Stim_Image: autoDraw = False
+158.4749 	EXP 	RT_Circle_Frame_Feedback: opacity = 0.5
+158.4749 	EXP 	RT_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+158.4749 	EXP 	RT_Circle_Frame_Feedback: lineWidth = 12.0
+158.4749 	EXP 	RT_Feedback_Image: image = 'media/check.png'
+158.4749 	EXP 	RT_Circle_Frame_Feedback: autoDraw = True
+158.4749 	EXP 	RT_Feedback_Image: autoDraw = True
+158.7782 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+158.7788 	EXP 	New trial (rep=0, index=0): None
+158.8002 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+158.8002 	EXP 	RT_Feedback_Image: autoDraw = False
+158.8002 	EXP 	RT_Circle_Frame_Feedback: autoDraw = False
+158.8002 	EXP 	RT_Feedback_Image: autoDraw = False
+158.8002 	EXP 	Instr_TR_text: text = 'Good job so far. \n\nIn the following 6 blocks, press the corresponding key when the larger white ring intersects the smaller gray ring. Remember, the symbol may show up very late. In this case, MAKE A GUESS. This task is designed to be difficult, so it is okay to make a guess. \n\nPress one of the keys to start.'
+158.8002 	EXP 	Instr_TR_text: autoDraw = True
+159.8646 	EXP 	Created sequence: sequential, trialTypes=1, nReps=9, seed=None
+159.8654 	EXP 	New trial (rep=0, index=0): None
+159.8830 	DATA 	Keypress: h
+159.8855 	EXP 	Instr_TR_text: autoDraw = False
+159.8855 	EXP 	Instr_Block_Num_Text: text = 'Block 1\nPress one of the keys to start'
+159.8855 	EXP 	Instr_Block_Num_Text: autoDraw = True
+160.4972 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+160.4978 	EXP 	New trial (rep=0, index=0): None
+160.5022 	DATA 	Keypress: h
+160.5066 	EXP 	Instr_Block_Num_Text: autoDraw = False
+160.5066 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+160.5066 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+160.5066 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+160.5066 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+160.7077 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+160.7077 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+160.7077 	EXP 	TR_Circle_Frame: opacity = 0.5
+160.7077 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+160.7077 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+160.7077 	EXP 	TR_Circle: opacity = 1.0
+160.7077 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+160.7077 	EXP 	TR_Circle: lineWidth = 12.0
+160.7077 	EXP 	TR_Ctx: opacity = 0.5
+160.7077 	EXP 	TR_Ctx: fillColor = 'green (named)'
+160.7077 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+160.7077 	EXP 	TR_Ctx: lineWidth = 12.0
+160.7077 	EXP 	TR_Stim_Image: image = 'media/djnb.png'
+160.7077 	EXP 	TR_Circle_Frame: autoDraw = True
+160.7077 	EXP 	TR_Circle_Frame: autoDraw = False
+160.7077 	EXP 	TR_Circle: autoDraw = True
+160.7077 	EXP 	TR_Ctx: autoDraw = True
+161.7740 	EXP 	TR_Stim_Image: autoDraw = True
+162.4659 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+162.4663 	EXP 	New trial (rep=0, index=0): None
+162.5131 	DATA 	Keypress: h
+162.5162 	EXP 	TR_Circle_Frame: autoDraw = False
+162.5162 	EXP 	TR_Circle: autoDraw = False
+162.5162 	EXP 	TR_Ctx: autoDraw = False
+162.5162 	EXP 	TR_Stim_Image: autoDraw = False
+162.5162 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+162.5162 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+162.5162 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+162.5162 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+162.5162 	EXP 	TR_Feedback_Text: text = 'little late'
+162.5162 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+162.5162 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+162.5162 	EXP 	TR_Feedback_Text: autoDraw = True
+162.5162 	EXP 	TR_Feedback_Image: autoDraw = True
+162.8127 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+162.8136 	EXP 	New trial (rep=1, index=0): None
+162.8233 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+162.8233 	EXP 	TR_Feedback_Text: autoDraw = False
+162.8233 	EXP 	TR_Feedback_Image: autoDraw = False
+162.8233 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+162.8233 	EXP 	TR_Feedback_Text: autoDraw = False
+162.8233 	EXP 	TR_Feedback_Image: autoDraw = False
+162.8233 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+162.8233 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+162.8233 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+162.8233 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+163.0244 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+163.0244 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+163.0244 	EXP 	TR_Circle_Frame: opacity = 0.5
+163.0244 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+163.0244 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+163.0244 	EXP 	TR_Circle: opacity = 1.0
+163.0244 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+163.0244 	EXP 	TR_Circle: lineWidth = 12.0
+163.0244 	EXP 	TR_Ctx: opacity = 0.5
+163.0244 	EXP 	TR_Ctx: fillColor = 'green (named)'
+163.0244 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+163.0244 	EXP 	TR_Ctx: lineWidth = 12.0
+163.0244 	EXP 	TR_Stim_Image: image = 'media/dnnb.png'
+163.0244 	EXP 	TR_Circle_Frame: autoDraw = True
+163.0244 	EXP 	TR_Circle_Frame: autoDraw = False
+163.0244 	EXP 	TR_Circle: autoDraw = True
+163.0244 	EXP 	TR_Ctx: autoDraw = True
+164.4073 	EXP 	TR_Stim_Image: autoDraw = True
+164.6478 	DATA 	Keypress: l
+164.6677 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+164.6683 	EXP 	New trial (rep=0, index=0): None
+164.6947 	EXP 	TR_Circle_Frame: autoDraw = False
+164.6947 	EXP 	TR_Circle: autoDraw = False
+164.6947 	EXP 	TR_Ctx: autoDraw = False
+164.6947 	EXP 	TR_Stim_Image: autoDraw = False
+164.6947 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+164.6947 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+164.6947 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+164.6947 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+164.6947 	EXP 	TR_Feedback_Text: text = 'good timing'
+164.6947 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+164.6947 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+164.6947 	EXP 	TR_Feedback_Text: autoDraw = True
+164.6947 	EXP 	TR_Feedback_Image: autoDraw = True
+164.9946 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+164.9952 	EXP 	New trial (rep=2, index=0): None
+165.0065 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+165.0065 	EXP 	TR_Feedback_Text: autoDraw = False
+165.0065 	EXP 	TR_Feedback_Image: autoDraw = False
+165.0065 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+165.0065 	EXP 	TR_Feedback_Text: autoDraw = False
+165.0065 	EXP 	TR_Feedback_Image: autoDraw = False
+165.0065 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+165.0065 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+165.0065 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+165.0065 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+165.2079 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+165.2079 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+165.2079 	EXP 	TR_Circle_Frame: opacity = 0.5
+165.2079 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+165.2079 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+165.2079 	EXP 	TR_Circle: opacity = 1.0
+165.2079 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+165.2079 	EXP 	TR_Circle: lineWidth = 12.0
+165.2079 	EXP 	TR_Ctx: opacity = 0.5
+165.2079 	EXP 	TR_Ctx: fillColor = 'red (named)'
+165.2079 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+165.2079 	EXP 	TR_Ctx: lineWidth = 12.0
+165.2079 	EXP 	TR_Stim_Image: image = 'media/ddnb.png'
+165.2079 	EXP 	TR_Circle_Frame: autoDraw = True
+165.2079 	EXP 	TR_Circle_Frame: autoDraw = False
+165.2079 	EXP 	TR_Circle: autoDraw = True
+165.2079 	EXP 	TR_Ctx: autoDraw = True
+166.0243 	EXP 	TR_Stim_Image: autoDraw = True
+166.8639 	DATA 	Keypress: h
+166.8833 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+166.8837 	EXP 	New trial (rep=0, index=0): None
+166.9046 	EXP 	TR_Circle_Frame: autoDraw = False
+166.9046 	EXP 	TR_Circle: autoDraw = False
+166.9046 	EXP 	TR_Ctx: autoDraw = False
+166.9046 	EXP 	TR_Stim_Image: autoDraw = False
+166.9046 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+166.9046 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+166.9046 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+166.9046 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+166.9046 	EXP 	TR_Feedback_Text: text = 'good timing'
+166.9046 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+166.9046 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+166.9046 	EXP 	TR_Feedback_Text: autoDraw = True
+166.9046 	EXP 	TR_Feedback_Image: autoDraw = True
+167.1970 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+167.1978 	EXP 	New trial (rep=3, index=0): None
+167.2064 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+167.2064 	EXP 	TR_Feedback_Text: autoDraw = False
+167.2064 	EXP 	TR_Feedback_Image: autoDraw = False
+167.2064 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+167.2064 	EXP 	TR_Feedback_Text: autoDraw = False
+167.2064 	EXP 	TR_Feedback_Image: autoDraw = False
+167.2064 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+167.2064 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+167.2064 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+167.2064 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+167.4078 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+167.4078 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+167.4078 	EXP 	TR_Circle_Frame: opacity = 0.5
+167.4078 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+167.4078 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+167.4078 	EXP 	TR_Circle: opacity = 1.0
+167.4078 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+167.4078 	EXP 	TR_Circle: lineWidth = 12.0
+167.4078 	EXP 	TR_Ctx: opacity = 0.5
+167.4078 	EXP 	TR_Ctx: fillColor = 'red (named)'
+167.4078 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+167.4078 	EXP 	TR_Ctx: lineWidth = 12.0
+167.4078 	EXP 	TR_Stim_Image: image = 'media/dinb.png'
+167.4078 	EXP 	TR_Circle_Frame: autoDraw = True
+167.4078 	EXP 	TR_Circle_Frame: autoDraw = False
+167.4078 	EXP 	TR_Circle: autoDraw = True
+167.4078 	EXP 	TR_Ctx: autoDraw = True
+167.7411 	EXP 	TR_Stim_Image: autoDraw = True
+169.0467 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+169.0470 	EXP 	New trial (rep=0, index=0): None
+169.0785 	DATA 	Keypress: l
+169.0820 	EXP 	TR_Circle_Frame: autoDraw = False
+169.0820 	EXP 	TR_Circle: autoDraw = False
+169.0820 	EXP 	TR_Ctx: autoDraw = False
+169.0820 	EXP 	TR_Stim_Image: autoDraw = False
+169.0820 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+169.0820 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+169.0820 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+169.0820 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+169.0820 	EXP 	TR_Feedback_Text: text = 'good timing'
+169.0820 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+169.0820 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+169.0820 	EXP 	TR_Feedback_Text: autoDraw = True
+169.0820 	EXP 	TR_Feedback_Image: autoDraw = True
+169.3794 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+169.3804 	EXP 	New trial (rep=4, index=0): None
+169.3902 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+169.3902 	EXP 	TR_Feedback_Text: autoDraw = False
+169.3902 	EXP 	TR_Feedback_Image: autoDraw = False
+169.3902 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+169.3902 	EXP 	TR_Feedback_Text: autoDraw = False
+169.3902 	EXP 	TR_Feedback_Image: autoDraw = False
+169.3902 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+169.3902 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+169.3902 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+169.3902 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+169.5911 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+169.5911 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+169.5911 	EXP 	TR_Circle_Frame: opacity = 0.5
+169.5911 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+169.5911 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+169.5911 	EXP 	TR_Circle: opacity = 1.0
+169.5911 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+169.5911 	EXP 	TR_Circle: lineWidth = 12.0
+169.5911 	EXP 	TR_Ctx: opacity = 0.5
+169.5911 	EXP 	TR_Ctx: fillColor = 'green (named)'
+169.5911 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+169.5911 	EXP 	TR_Ctx: lineWidth = 12.0
+169.5911 	EXP 	TR_Stim_Image: image = 'media/dnnb.png'
+169.5911 	EXP 	TR_Circle_Frame: autoDraw = True
+169.5911 	EXP 	TR_Circle_Frame: autoDraw = False
+169.5911 	EXP 	TR_Circle: autoDraw = True
+169.5911 	EXP 	TR_Ctx: autoDraw = True
+171.1797 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+171.1799 	EXP 	New trial (rep=0, index=0): None
+171.1950 	DATA 	Keypress: i
+171.1984 	EXP 	TR_Circle_Frame: autoDraw = False
+171.1984 	EXP 	TR_Circle: autoDraw = False
+171.1984 	EXP 	TR_Ctx: autoDraw = False
+171.1984 	EXP 	TR_Stim_Image: autoDraw = False
+171.1984 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+171.1984 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+171.1984 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+171.1984 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+171.1984 	EXP 	TR_Feedback_Text: text = 'good timing'
+171.1984 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+171.1984 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+171.1984 	EXP 	TR_Feedback_Text: autoDraw = True
+171.1984 	EXP 	TR_Feedback_Image: autoDraw = True
+171.4931 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+171.4934 	EXP 	New trial (rep=5, index=0): None
+171.5066 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+171.5066 	EXP 	TR_Feedback_Text: autoDraw = False
+171.5066 	EXP 	TR_Feedback_Image: autoDraw = False
+171.5066 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+171.5066 	EXP 	TR_Feedback_Text: autoDraw = False
+171.5066 	EXP 	TR_Feedback_Image: autoDraw = False
+171.5066 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+171.5066 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+171.5066 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+171.5066 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+171.7079 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+171.7079 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+171.7079 	EXP 	TR_Circle_Frame: opacity = 0.5
+171.7079 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+171.7079 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+171.7079 	EXP 	TR_Circle: opacity = 1.0
+171.7079 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+171.7079 	EXP 	TR_Circle: lineWidth = 12.0
+171.7079 	EXP 	TR_Ctx: opacity = 0.5
+171.7079 	EXP 	TR_Ctx: fillColor = 'green (named)'
+171.7079 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+171.7079 	EXP 	TR_Ctx: lineWidth = 12.0
+171.7079 	EXP 	TR_Stim_Image: image = 'media/djnb.png'
+171.7079 	EXP 	TR_Circle_Frame: autoDraw = True
+171.7079 	EXP 	TR_Circle_Frame: autoDraw = False
+171.7079 	EXP 	TR_Circle: autoDraw = True
+171.7079 	EXP 	TR_Ctx: autoDraw = True
+172.6908 	EXP 	TR_Stim_Image: autoDraw = True
+173.3948 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+173.3950 	EXP 	New trial (rep=0, index=0): None
+173.4160 	DATA 	Keypress: i
+173.4193 	EXP 	TR_Circle_Frame: autoDraw = False
+173.4193 	EXP 	TR_Circle: autoDraw = False
+173.4193 	EXP 	TR_Ctx: autoDraw = False
+173.4193 	EXP 	TR_Stim_Image: autoDraw = False
+173.4193 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+173.4193 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+173.4193 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+173.4193 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+173.4193 	EXP 	TR_Feedback_Text: text = 'good timing'
+173.4193 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+173.4193 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+173.4193 	EXP 	TR_Feedback_Text: autoDraw = True
+173.4193 	EXP 	TR_Feedback_Image: autoDraw = True
+173.4763 	DATA 	Keypress: l
+173.7091 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+173.7093 	EXP 	New trial (rep=6, index=0): None
+173.7232 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+173.7232 	EXP 	TR_Feedback_Text: autoDraw = False
+173.7232 	EXP 	TR_Feedback_Image: autoDraw = False
+173.7232 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+173.7232 	EXP 	TR_Feedback_Text: autoDraw = False
+173.7232 	EXP 	TR_Feedback_Image: autoDraw = False
+173.7232 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+173.7232 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+173.7232 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+173.7232 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+173.9246 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+173.9246 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+173.9246 	EXP 	TR_Circle_Frame: opacity = 0.5
+173.9246 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+173.9246 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+173.9246 	EXP 	TR_Circle: opacity = 1.0
+173.9246 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+173.9246 	EXP 	TR_Circle: lineWidth = 12.0
+173.9246 	EXP 	TR_Ctx: opacity = 0.5
+173.9246 	EXP 	TR_Ctx: fillColor = 'green (named)'
+173.9246 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+173.9246 	EXP 	TR_Ctx: lineWidth = 12.0
+173.9246 	EXP 	TR_Stim_Image: image = 'media/ddnb.png'
+173.9246 	EXP 	TR_Circle_Frame: autoDraw = True
+173.9246 	EXP 	TR_Circle_Frame: autoDraw = False
+173.9246 	EXP 	TR_Circle: autoDraw = True
+173.9246 	EXP 	TR_Ctx: autoDraw = True
+174.3744 	EXP 	TR_Stim_Image: autoDraw = True
+175.5278 	DATA 	Keypress: u
+175.5456 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+175.5459 	EXP 	New trial (rep=0, index=0): None
+175.5591 	EXP 	TR_Circle_Frame: autoDraw = False
+175.5591 	EXP 	TR_Circle: autoDraw = False
+175.5591 	EXP 	TR_Ctx: autoDraw = False
+175.5591 	EXP 	TR_Stim_Image: autoDraw = False
+175.5591 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+175.5591 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+175.5591 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+175.5591 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+175.5591 	EXP 	TR_Feedback_Text: text = 'good timing'
+175.5591 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+175.5591 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+175.5591 	EXP 	TR_Feedback_Text: autoDraw = True
+175.5591 	EXP 	TR_Feedback_Image: autoDraw = True
+175.8632 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+175.8642 	EXP 	New trial (rep=7, index=0): None
+175.8733 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+175.8733 	EXP 	TR_Feedback_Text: autoDraw = False
+175.8733 	EXP 	TR_Feedback_Image: autoDraw = False
+175.8733 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+175.8733 	EXP 	TR_Feedback_Text: autoDraw = False
+175.8733 	EXP 	TR_Feedback_Image: autoDraw = False
+175.8733 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+175.8733 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+175.8733 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+175.8733 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+176.0753 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+176.0753 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+176.0753 	EXP 	TR_Circle_Frame: opacity = 0.5
+176.0753 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+176.0753 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+176.0753 	EXP 	TR_Circle: opacity = 1.0
+176.0753 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+176.0753 	EXP 	TR_Circle: lineWidth = 12.0
+176.0753 	EXP 	TR_Ctx: opacity = 0.5
+176.0753 	EXP 	TR_Ctx: fillColor = 'red (named)'
+176.0753 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+176.0753 	EXP 	TR_Ctx: lineWidth = 12.0
+176.0753 	EXP 	TR_Stim_Image: image = 'media/ddnb.png'
+176.0753 	EXP 	TR_Circle_Frame: autoDraw = True
+176.0753 	EXP 	TR_Circle_Frame: autoDraw = False
+176.0753 	EXP 	TR_Circle: autoDraw = True
+176.0753 	EXP 	TR_Ctx: autoDraw = True
+176.8078 	EXP 	TR_Stim_Image: autoDraw = True
+177.7129 	DATA 	Keypress: i
+177.7319 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+177.7323 	EXP 	New trial (rep=0, index=0): None
+177.7545 	EXP 	TR_Circle_Frame: autoDraw = False
+177.7545 	EXP 	TR_Circle: autoDraw = False
+177.7545 	EXP 	TR_Ctx: autoDraw = False
+177.7545 	EXP 	TR_Stim_Image: autoDraw = False
+177.7545 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+177.7545 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+177.7545 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+177.7545 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+177.7545 	EXP 	TR_Feedback_Text: text = 'good timing'
+177.7545 	EXP 	TR_Feedback_Image: image = 'media/check.png'
+177.7545 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+177.7545 	EXP 	TR_Feedback_Text: autoDraw = True
+177.7545 	EXP 	TR_Feedback_Image: autoDraw = True
+178.0439 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+178.0443 	EXP 	New trial (rep=8, index=0): None
+178.0566 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+178.0566 	EXP 	TR_Feedback_Text: autoDraw = False
+178.0566 	EXP 	TR_Feedback_Image: autoDraw = False
+178.0566 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+178.0566 	EXP 	TR_Feedback_Text: autoDraw = False
+178.0566 	EXP 	TR_Feedback_Image: autoDraw = False
+178.0566 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+178.0566 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+178.0566 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+178.0566 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+178.2579 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+178.2579 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+178.2579 	EXP 	TR_Circle_Frame: opacity = 0.5
+178.2579 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+178.2579 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+178.2579 	EXP 	TR_Circle: opacity = 1.0
+178.2579 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+178.2579 	EXP 	TR_Circle: lineWidth = 12.0
+178.2579 	EXP 	TR_Ctx: opacity = 0.5
+178.2579 	EXP 	TR_Ctx: fillColor = 'green (named)'
+178.2579 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+178.2579 	EXP 	TR_Ctx: lineWidth = 12.0
+178.2579 	EXP 	TR_Stim_Image: image = 'media/dinb.png'
+178.2579 	EXP 	TR_Circle_Frame: autoDraw = True
+178.2579 	EXP 	TR_Circle_Frame: autoDraw = False
+178.2579 	EXP 	TR_Circle: autoDraw = True
+178.2579 	EXP 	TR_Ctx: autoDraw = True
+178.4248 	EXP 	TR_Stim_Image: autoDraw = True
+179.9324 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+179.9329 	EXP 	New trial (rep=0, index=0): None
+179.9586 	DATA 	Keypress: l
+179.9620 	EXP 	TR_Circle_Frame: autoDraw = False
+179.9620 	EXP 	TR_Circle: autoDraw = False
+179.9620 	EXP 	TR_Ctx: autoDraw = False
+179.9620 	EXP 	TR_Stim_Image: autoDraw = False
+179.9620 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+179.9620 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+179.9620 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+179.9620 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+179.9620 	EXP 	TR_Feedback_Text: text = 'good timing'
+179.9620 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+179.9620 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+179.9620 	EXP 	TR_Feedback_Text: autoDraw = True
+179.9620 	EXP 	TR_Feedback_Image: autoDraw = True
+180.2612 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+180.2618 	EXP 	New trial (rep=9, index=0): None
+180.2733 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+180.2733 	EXP 	TR_Feedback_Text: autoDraw = False
+180.2733 	EXP 	TR_Feedback_Image: autoDraw = False
+180.2733 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+180.2733 	EXP 	TR_Feedback_Text: autoDraw = False
+180.2733 	EXP 	TR_Feedback_Image: autoDraw = False
+180.2733 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+180.2733 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+180.2733 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+180.2733 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+180.4748 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+180.4748 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+180.4748 	EXP 	TR_Circle_Frame: opacity = 0.5
+180.4748 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+180.4748 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+180.4748 	EXP 	TR_Circle: opacity = 1.0
+180.4748 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+180.4748 	EXP 	TR_Circle: lineWidth = 12.0
+180.4748 	EXP 	TR_Ctx: opacity = 0.5
+180.4748 	EXP 	TR_Ctx: fillColor = 'red (named)'
+180.4748 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+180.4748 	EXP 	TR_Ctx: lineWidth = 12.0
+180.4748 	EXP 	TR_Stim_Image: image = 'media/dinb.png'
+180.4748 	EXP 	TR_Circle_Frame: autoDraw = True
+180.4748 	EXP 	TR_Circle_Frame: autoDraw = False
+180.4748 	EXP 	TR_Circle: autoDraw = True
+180.4748 	EXP 	TR_Ctx: autoDraw = True
+181.3245 	EXP 	TR_Stim_Image: autoDraw = True
+182.1996 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+182.2002 	EXP 	New trial (rep=0, index=0): None
+182.2287 	DATA 	Keypress: h
+182.2320 	EXP 	TR_Circle_Frame: autoDraw = False
+182.2320 	EXP 	TR_Circle: autoDraw = False
+182.2320 	EXP 	TR_Ctx: autoDraw = False
+182.2320 	EXP 	TR_Stim_Image: autoDraw = False
+182.2320 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+182.2320 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+182.2320 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+182.2320 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+182.2320 	EXP 	TR_Feedback_Text: text = 'little late'
+182.2320 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+182.2320 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+182.2320 	EXP 	TR_Feedback_Text: autoDraw = True
+182.2320 	EXP 	TR_Feedback_Image: autoDraw = True
+182.5292 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+182.5295 	EXP 	New trial (rep=1, index=0): None
+182.5395 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+182.5395 	EXP 	TR_Feedback_Text: autoDraw = False
+182.5395 	EXP 	TR_Feedback_Image: autoDraw = False
+182.5395 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+182.5395 	EXP 	TR_Feedback_Text: autoDraw = False
+182.5395 	EXP 	TR_Feedback_Image: autoDraw = False
+182.5395 	EXP 	Instr_Block_Num_Text: text = 'Block 2\nPress one of the keys to start'
+182.5395 	EXP 	Instr_Block_Num_Text: autoDraw = True
+195.7604 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+195.7607 	EXP 	New trial (rep=0, index=0): None
+195.7631 	DATA 	Keypress: h
+195.7736 	EXP 	Instr_Block_Num_Text: autoDraw = False
+195.7736 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+195.7736 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+195.7736 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+195.7736 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+195.9770 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+195.9770 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+195.9770 	EXP 	TR_Circle_Frame: opacity = 0.5
+195.9770 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+195.9770 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+195.9770 	EXP 	TR_Circle: opacity = 1.0
+195.9770 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+195.9770 	EXP 	TR_Circle: lineWidth = 12.0
+195.9770 	EXP 	TR_Ctx: opacity = 0.5
+195.9770 	EXP 	TR_Ctx: fillColor = 'green (named)'
+195.9770 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+195.9770 	EXP 	TR_Ctx: lineWidth = 12.0
+195.9770 	EXP 	TR_Stim_Image: image = 'media/dinb.png'
+195.9770 	EXP 	TR_Circle_Frame: autoDraw = True
+195.9770 	EXP 	TR_Circle_Frame: autoDraw = False
+195.9770 	EXP 	TR_Circle: autoDraw = True
+195.9770 	EXP 	TR_Ctx: autoDraw = True
+196.0250 	EXP 	TR_Stim_Image: autoDraw = True
+197.7291 	DATA 	Keypress: i
+197.7494 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+197.7498 	EXP 	New trial (rep=0, index=0): None
+197.7813 	EXP 	TR_Circle_Frame: autoDraw = False
+197.7813 	EXP 	TR_Circle: autoDraw = False
+197.7813 	EXP 	TR_Ctx: autoDraw = False
+197.7813 	EXP 	TR_Stim_Image: autoDraw = False
+197.7813 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+197.7813 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+197.7813 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+197.7813 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+197.7813 	EXP 	TR_Feedback_Text: text = 'little late'
+197.7813 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+197.7813 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+197.7813 	EXP 	TR_Feedback_Text: autoDraw = True
+197.7813 	EXP 	TR_Feedback_Image: autoDraw = True
+198.0789 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+198.0796 	EXP 	New trial (rep=1, index=0): None
+198.0903 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+198.0903 	EXP 	TR_Feedback_Text: autoDraw = False
+198.0903 	EXP 	TR_Feedback_Image: autoDraw = False
+198.0903 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+198.0903 	EXP 	TR_Feedback_Text: autoDraw = False
+198.0903 	EXP 	TR_Feedback_Image: autoDraw = False
+198.0903 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+198.0903 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+198.0903 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+198.0903 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+198.2916 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+198.2916 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+198.2916 	EXP 	TR_Circle_Frame: opacity = 0.5
+198.2916 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+198.2916 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+198.2916 	EXP 	TR_Circle: opacity = 1.0
+198.2916 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+198.2916 	EXP 	TR_Circle: lineWidth = 12.0
+198.2916 	EXP 	TR_Ctx: opacity = 0.5
+198.2916 	EXP 	TR_Ctx: fillColor = 'green (named)'
+198.2916 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+198.2916 	EXP 	TR_Ctx: lineWidth = 12.0
+198.2916 	EXP 	TR_Stim_Image: image = 'media/ddnb.png'
+198.2916 	EXP 	TR_Circle_Frame: autoDraw = True
+198.2916 	EXP 	TR_Circle_Frame: autoDraw = False
+198.2916 	EXP 	TR_Circle: autoDraw = True
+198.2916 	EXP 	TR_Ctx: autoDraw = True
+198.7252 	EXP 	TR_Stim_Image: autoDraw = True
+199.9636 	DATA 	Keypress: h
+199.9827 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+199.9832 	EXP 	New trial (rep=0, index=0): None
+200.0102 	EXP 	TR_Circle_Frame: autoDraw = False
+200.0102 	EXP 	TR_Circle: autoDraw = False
+200.0102 	EXP 	TR_Ctx: autoDraw = False
+200.0102 	EXP 	TR_Stim_Image: autoDraw = False
+200.0102 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+200.0102 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+200.0102 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+200.0102 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+200.0102 	EXP 	TR_Feedback_Text: text = 'good timing'
+200.0102 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+200.0102 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+200.0102 	EXP 	TR_Feedback_Text: autoDraw = True
+200.0102 	EXP 	TR_Feedback_Image: autoDraw = True
+200.3120 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+200.3127 	EXP 	New trial (rep=2, index=0): None
+200.3237 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+200.3237 	EXP 	TR_Feedback_Text: autoDraw = False
+200.3237 	EXP 	TR_Feedback_Image: autoDraw = False
+200.3237 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+200.3237 	EXP 	TR_Feedback_Text: autoDraw = False
+200.3237 	EXP 	TR_Feedback_Image: autoDraw = False
+200.3237 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+200.3237 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+200.3237 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+200.3237 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+200.5250 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+200.5250 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+200.5250 	EXP 	TR_Circle_Frame: opacity = 0.5
+200.5250 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+200.5250 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+200.5250 	EXP 	TR_Circle: opacity = 1.0
+200.5250 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+200.5250 	EXP 	TR_Circle: lineWidth = 12.0
+200.5250 	EXP 	TR_Ctx: opacity = 0.5
+200.5250 	EXP 	TR_Ctx: fillColor = 'red (named)'
+200.5250 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+200.5250 	EXP 	TR_Ctx: lineWidth = 12.0
+200.5250 	EXP 	TR_Stim_Image: image = 'media/dnnb.png'
+200.5250 	EXP 	TR_Circle_Frame: autoDraw = True
+200.5250 	EXP 	TR_Circle_Frame: autoDraw = False
+200.5250 	EXP 	TR_Circle: autoDraw = True
+200.5250 	EXP 	TR_Ctx: autoDraw = True
+201.6081 	EXP 	TR_Stim_Image: autoDraw = True
+202.1963 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+202.1965 	EXP 	New trial (rep=0, index=0): None
+202.2070 	DATA 	Keypress: l
+202.2103 	EXP 	TR_Circle_Frame: autoDraw = False
+202.2103 	EXP 	TR_Circle: autoDraw = False
+202.2103 	EXP 	TR_Ctx: autoDraw = False
+202.2103 	EXP 	TR_Stim_Image: autoDraw = False
+202.2103 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+202.2103 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+202.2103 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+202.2103 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+202.2103 	EXP 	TR_Feedback_Text: text = 'good timing'
+202.2103 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+202.2103 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+202.2103 	EXP 	TR_Feedback_Text: autoDraw = True
+202.2103 	EXP 	TR_Feedback_Image: autoDraw = True
+202.5105 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+202.5110 	EXP 	New trial (rep=3, index=0): None
+202.5237 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+202.5237 	EXP 	TR_Feedback_Text: autoDraw = False
+202.5237 	EXP 	TR_Feedback_Image: autoDraw = False
+202.5237 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+202.5237 	EXP 	TR_Feedback_Text: autoDraw = False
+202.5237 	EXP 	TR_Feedback_Image: autoDraw = False
+202.5237 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+202.5237 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+202.5237 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+202.5237 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+202.7249 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+202.7249 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+202.7249 	EXP 	TR_Circle_Frame: opacity = 0.5
+202.7249 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+202.7249 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+202.7249 	EXP 	TR_Circle: opacity = 1.0
+202.7249 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+202.7249 	EXP 	TR_Circle: lineWidth = 12.0
+202.7249 	EXP 	TR_Ctx: opacity = 0.5
+202.7249 	EXP 	TR_Ctx: fillColor = 'green (named)'
+202.7249 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+202.7249 	EXP 	TR_Ctx: lineWidth = 12.0
+202.7249 	EXP 	TR_Stim_Image: image = 'media/ddnb.png'
+202.7249 	EXP 	TR_Circle_Frame: autoDraw = True
+202.7249 	EXP 	TR_Circle_Frame: autoDraw = False
+202.7249 	EXP 	TR_Circle: autoDraw = True
+202.7249 	EXP 	TR_Ctx: autoDraw = True
+203.9913 	EXP 	TR_Stim_Image: autoDraw = True
+204.4510 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+204.4517 	EXP 	New trial (rep=0, index=0): None
+204.4742 	DATA 	Keypress: h
+204.4776 	EXP 	TR_Circle_Frame: autoDraw = False
+204.4776 	EXP 	TR_Circle: autoDraw = False
+204.4776 	EXP 	TR_Ctx: autoDraw = False
+204.4776 	EXP 	TR_Stim_Image: autoDraw = False
+204.4776 	EXP 	Tr_Circle_Frame_Feedback: opacity = 0.5
+204.4776 	EXP 	Tr_Circle_Frame_Feedback: lineColor = '[1. 1. 1.] (rgb)'
+204.4776 	EXP 	Tr_Circle_Frame_Feedback: lineWidth = 12.0
+204.4776 	EXP 	TR_Feedback_Text: color = '[1. 1. 1.] (rgb)'
+204.4776 	EXP 	TR_Feedback_Text: text = 'little late'
+204.4776 	EXP 	TR_Feedback_Image: image = 'media/cross.png'
+204.4776 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = True
+204.4776 	EXP 	TR_Feedback_Text: autoDraw = True
+204.4776 	EXP 	TR_Feedback_Image: autoDraw = True
+204.7802 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+204.7812 	EXP 	New trial (rep=4, index=0): None
+204.7906 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+204.7906 	EXP 	TR_Feedback_Text: autoDraw = False
+204.7906 	EXP 	TR_Feedback_Image: autoDraw = False
+204.7906 	EXP 	Tr_Circle_Frame_Feedback: autoDraw = False
+204.7906 	EXP 	TR_Feedback_Text: autoDraw = False
+204.7906 	EXP 	TR_Feedback_Image: autoDraw = False
+204.7906 	EXP 	Pre_Trial_Circle_Frame: opacity = 0.5
+204.7906 	EXP 	Pre_Trial_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+204.7906 	EXP 	Pre_Trial_Circle_Frame: lineWidth = 12.0
+204.7906 	EXP 	Pre_Trial_Circle_Frame: autoDraw = True
+204.9918 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+204.9918 	EXP 	Pre_Trial_Circle_Frame: autoDraw = False
+204.9918 	EXP 	TR_Circle_Frame: opacity = 0.5
+204.9918 	EXP 	TR_Circle_Frame: lineColor = '[1. 1. 1.] (rgb)'
+204.9918 	EXP 	TR_Circle_Frame: lineWidth = 12.0
+204.9918 	EXP 	TR_Circle: opacity = 1.0
+204.9918 	EXP 	TR_Circle: lineColor = '[1. 1. 1.] (rgb)'
+204.9918 	EXP 	TR_Circle: lineWidth = 12.0
+204.9918 	EXP 	TR_Ctx: opacity = 0.5
+204.9918 	EXP 	TR_Ctx: fillColor = 'green (named)'
+204.9918 	EXP 	TR_Ctx: lineColor = '[1. 1. 1.] (rgb)'
+204.9918 	EXP 	TR_Ctx: lineWidth = 12.0
+204.9918 	EXP 	TR_Stim_Image: image = 'media/dinb.png'
+204.9918 	EXP 	TR_Circle_Frame: autoDraw = True
+204.9918 	EXP 	TR_Circle_Frame: autoDraw = False
+204.9918 	EXP 	TR_Circle: autoDraw = True
+204.9918 	EXP 	TR_Ctx: autoDraw = True
+205.3584 	EXP 	TR_Stim_Image: autoDraw = True
+206.4141 	DATA 	Mouse: Left button down, pos=(137,713)
+206.5288 	DATA 	Mouse:  Left button up, pos=(137,713)
+206.7739 	EXP 	TR_Circle: autoDraw = False
+206.7739 	EXP 	TR_Stim_Image: autoDraw = False
+206.7943 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+206.7946 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+206.7948 	EXP 	New trial (rep=0, index=0): None
+206.8176 	EXP 	TR_Ctx: autoDraw = False
+206.8176 	EXP 	TR_Circle_Frame: autoDraw = False
+206.8176 	EXP 	TR_Circle: autoDraw = False
+206.8176 	EXP 	TR_Ctx: autoDraw = False
+206.8176 	EXP 	TR_Stim_Image: autoDraw = False
+206.8176 	EXP 	TR_Circle_Frame_Penalty: opacity = 0.5
+206.8176 	EXP 	TR_Circle_Frame_Penalty: lineColor = '[1. 1. 1.] (rgb)'
+206.8176 	EXP 	TR_Circle_Frame_Penalty: lineWidth = 12.0
+206.8176 	EXP 	TR_Penalty_Text: text = 'Response was too late. \n2 second penalty. \nAfter 2 second, press one of the keys to continue.'
+206.8176 	EXP 	TR_Circle_Frame_Penalty: autoDraw = True
+206.8176 	EXP 	TR_Penalty_Text: autoDraw = True
+206.9443 	DATA 	Keypress: escape
+207.2245 	EXP 	window1: mouseVisible = True

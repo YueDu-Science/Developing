@@ -217,6 +217,7 @@ var stim_item;
 var image_item;
 var ctx_start_time;
 var interval_ind;
+var key_num;
 var Instr_ExpClock;
 var Instr_Exp_Text;
 var Instr_Exp_Key;
@@ -374,6 +375,7 @@ function experimentInit() {
   stim = [];
   ctx_color = [];
   image = [];
+  key_num = [];
   grp_list = permute([1, 2, 3, 4]);
   grp_list_num = grp_list.length;
   if ((participant == null)) {
@@ -2192,6 +2194,7 @@ function Init_StimRoutineBegin(trials) {
         stim.append(StimList[i]["Stim"]);
         ctx_color.append(StimList[i]["Ctx_color"]);
         image.append(StimList[i]["imStim"]);
+        key_num.append(StimList[i]["KeyNum"]);
     }
     if ((participant == null)) {
         stim_key_map_rnd = 0;
@@ -2736,6 +2739,8 @@ var seq_stim;
 var seq_finger;
 var seq_image;
 var seq_ctx;
+var seq_key_num_hand;
+var seq_key_num;
 var Creat_StimSeqComponents;
 function Creat_StimSeqRoutineBegin(trials) {
   return function () {
@@ -2756,11 +2761,13 @@ function Creat_StimSeqRoutineBegin(trials) {
         seq_handx = [];
         seq_handy = [];
         seq_finger_hand = [];
+        seq_key_num_hand = [];
     } else {
         seq_stim = [];
         seq_finger = [];
         seq_image = [];
         seq_ctx = [];
+        seq_key_num = [];
     }
     if ((stim_type === "Hand")) {
         count = 0;
@@ -2771,6 +2778,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                 seq_handx.append(x[i]);
                 seq_handy.append(y[i]);
                 seq_finger_hand.append(finger[i]);
+                seq_key_num_hand.append(key_num[i]);
             }
             util.shuffle(x8);
             for (var i, _pj_c = 0, _pj_a = x8, _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
@@ -2778,6 +2786,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                 seq_handx.append(x[i]);
                 seq_handy.append(y[i]);
                 seq_finger_hand.append(finger[i]);
+                seq_key_num_hand.append(key_num[i]);
             }
             util.shuffle(x4);
             for (var i, _pj_c = 0, _pj_a = x4, _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
@@ -2785,6 +2794,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                 seq_handx.append(x[i]);
                 seq_handy.append(y[i]);
                 seq_finger_hand.append(finger[i]);
+                seq_key_num_hand.append(key_num[i]);
             }
             count = (count + 1);
         }
@@ -2800,6 +2810,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                     seq_finger.append(finger[i]);
                     seq_image.append(image[i]);
                     seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                    seq_key_num.append(key_num[i]);
                 }
                 util.shuffle(x8);
                 for (var i, _pj_c = 0, _pj_a = x8, _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
@@ -2808,6 +2819,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                     seq_finger.append(finger[i]);
                     seq_image.append(image[i]);
                     seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                    seq_key_num.append(key_num[i]);
                 }
                 util.shuffle(x4);
                 for (var i, _pj_c = 0, _pj_a = x4, _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
@@ -2816,6 +2828,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                     seq_finger.append(finger[i]);
                     seq_image.append(image[i]);
                     seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                    seq_key_num.append(key_num[i]);
                 }
                 count = (count + 1);
             }
@@ -2830,6 +2843,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                         seq_finger.append(finger[i]);
                         seq_image.append(image[i]);
                         seq_ctx.append(ctx_color[i]);
+                        seq_key_num.append(key_num[i]);
                     }
                     util.shuffle(x16);
                     for (var i, _pj_c = 0, _pj_a = x16, _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
@@ -2838,6 +2852,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                         seq_finger.append(finger[i]);
                         seq_image.append(image[i]);
                         seq_ctx.append(ctx_color[i]);
+                        seq_key_num.append(key_num[i]);
                     }
                     util.shuffle(x8_new);
                     for (var i, _pj_c = 0, _pj_a = x8_new, _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
@@ -2846,6 +2861,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                         seq_finger.append(finger[i]);
                         seq_image.append(image[i]);
                         seq_ctx.append(ctx_color[i]);
+                        seq_key_num.append(key_num[i]);
                     }
                     count = (count + 1);
                 }
@@ -2889,6 +2905,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                     seq_finger.append(finger[i]);
                     seq_image.append(image[i]);
                     seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                    seq_key_num.append(key_num[i]);
                 }
                 count = (count + 1);
             }
@@ -2903,6 +2920,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                         seq_finger.append(finger[i]);
                         seq_image.append(image[i]);
                         seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                        seq_key_num.append(key_num[i]);
                     }
                     count = (count + 1);
                 }
@@ -2926,6 +2944,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                     seq_finger.append(finger[i]);
                     seq_image.append(image[i]);
                     seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                    seq_key_num.append(key_num[i]);
                 }
                 count = (count + 1);
             }
@@ -2946,6 +2965,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                         seq_finger.append(finger[i]);
                         seq_image.append(image[i]);
                         seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                        seq_key_num.append(key_num[i]);
                     }
                     count = (count + 1);
                 }
@@ -2966,6 +2986,7 @@ function Creat_StimSeqRoutineBegin(trials) {
                             seq_finger.append(finger[i]);
                             seq_image.append(image[i]);
                             seq_ctx.append(ctx_color[(i + ctx_ind)]);
+                            seq_key_num.append(key_num[i]);
                         }
                         count = (count + 1);
                     }
@@ -3046,6 +3067,7 @@ var stim_start_time;
 var prep_time;
 var position_item;
 var stim_hand;
+var key_item;
 var Pre_Trial_HandComponents;
 function Pre_Trial_HandRoutineBegin(trials) {
   return function () {
@@ -3059,6 +3081,7 @@ function Pre_Trial_HandRoutineBegin(trials) {
         x_item = seq_handx[trial_count];
         finger_item = seq_finger_hand[trial_count];
         y_item = seq_handy[trial_count];
+        key_item = seq_key_num_hand[trial_count];
         if ((block_type === "TR")) {
             stim_start_time = ((Math.random() * prep_time_range[1]) + prep_time_range[0]);
             prep_time = ((time_limit - too_late_tol) - stim_start_time);
@@ -3087,6 +3110,7 @@ function Pre_Trial_HandRoutineBegin(trials) {
         finger_item = seq_finger[trial_count];
         image_item = seq_image[trial_count];
         ctx_item = seq_ctx[trial_count];
+        key_item = seq_key_num[trial_count];
         if ((block_type === "TR")) {
             if ((ctx_item === ctx_color[0])) {
                 interval_ind = prep_time_ind[stim_item][trial_count_item[stim_item]];
@@ -3206,6 +3230,7 @@ function Pre_Trial_HandRoutineEnd(trials) {
         }
         psychoJS.experiment.addData("ctx", ctx_num);
     }
+    psychoJS.experiment.addData('Key_Num', key_item)
     psychoJS.experiment.addData("Stim_Type", stim_type);
     psychoJS.experiment.addData("Finger", finger_item);
     psychoJS.experiment.addData("Block_Type", block_type);
@@ -4509,6 +4534,7 @@ function Pre_TrialRoutineBegin(trials) {
         x_item = seq_handx[trial_count];
         finger_item = seq_finger_hand[trial_count];
         y_item = seq_handy[trial_count];
+        key_item = seq_key_num_hand[trial_count]
         if ((block_type === "TR")) {
             stim_start_time = ((Math.random() * prep_time_range[1]) + prep_time_range[0]);
             prep_time = ((time_limit - too_late_tol) - stim_start_time);
@@ -4537,6 +4563,7 @@ function Pre_TrialRoutineBegin(trials) {
         finger_item = seq_finger[trial_count];
         image_item = seq_image[trial_count];
         ctx_item = seq_ctx[trial_count];
+        key_item = seq_key_num[trial_count];
         if ((block_type === "TR")) {
             if ((ctx_item === ctx_color[0])) {
                 interval_ind = prep_time_ind[stim_item][trial_count_item[stim_item]];
@@ -4639,6 +4666,8 @@ function Pre_TrialRoutineEnd(trials) {
         }
         psychoJS.experiment.addData("ctx", ctx_num);
     }
+    
+    psychoJS.experiment.addData('Key_Num', key_item)
     psychoJS.experiment.addData("Stim_Type", stim_type);
     psychoJS.experiment.addData("Finger", finger_item);
     psychoJS.experiment.addData("Block_Type", block_type);
